@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue';
 import AboutMe from './components/AboutMe.vue';
-import WorkExperience from '.components/WorkExperience.vue';
+import WorkExperience from './components/WorkExperience.vue';
 import Contact from './components/Contact.vue';
 </script>
 
