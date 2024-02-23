@@ -1,6 +1,7 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 import AboutMe from './components/AboutMe.vue';
+import Contact from './components/Contact.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import AboutMe from './components/AboutMe.vue';
   </div>
   <HelloWorld msg="Hello World!" />
   <AboutMe />
+  <Contact />
 </template>
 
 <style scoped>
