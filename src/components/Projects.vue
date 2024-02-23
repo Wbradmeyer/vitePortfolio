@@ -10,6 +10,7 @@
 
 <style>
     .project.pic {
-        border-radius: 5px;
+        border-radius: 8px;
+        max-width: 200px;
     }
 </style>
