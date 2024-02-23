@@ -11,6 +11,6 @@
 <style>
     .project.pic {
         border-radius: 8px;
-        max-width: 200px;
+        max-width: 400px;
     }
 </style>
