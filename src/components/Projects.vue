@@ -12,6 +12,11 @@
     <a href="https://github.com/Wbradmeyer/MeyerSoloProject" target="_blank">
         <img src="../assets/instrument_hub.png" alt="instrument hub screenshot" class="project pic">
     </a>
+
+    <h2>Job Match</h2>
+    <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">
+        <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
+    </a>
 </template>
 
 <style>
