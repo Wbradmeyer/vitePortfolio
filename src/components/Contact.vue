@@ -25,13 +25,13 @@
         color: blue;
     }
 
-    form {
+    label, input, span, p, button {
         display: block;
     }
 
     .input {
         border: 2px solid darkslategray;
-        border-radius: 3px;
+        border-radius: 5px;
     }
 
     .submit {
