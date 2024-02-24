@@ -25,6 +25,10 @@
         color: blue;
     }
 
+    form {
+        text-align: left;
+    }
+
     label, input, span, p, button {
         display: block;
     }
@@ -32,6 +36,8 @@
     .input {
         border: 2px solid darkslategray;
         border-radius: 5px;
+        width: 350px;
+        height: 30px;
     }
 
     .submit {
