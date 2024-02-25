@@ -23,6 +23,6 @@
 
 <style>
     .about {
-        color: red;
+        color: black;
     }
 </style>
