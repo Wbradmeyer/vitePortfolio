@@ -1,20 +1,22 @@
 <script setup></script>
 
 <template>
-    <form action="#">
-        <h1 style="text-align: center;">Contact Me</h1>
-        <label>Your Name: {{ name }}</label>
-        <input v-model="name" placeholder="Jane Doe" class="input">
-
-        <label>Your Email: {{ email }}</label>
-        <input v-model="email" placeholder="janedoe@gmail.com" class="input">
-
-        <span>Message:</span>
-        <p>{{ message }}</p>
-        <textarea v-model="message" placeholder="Add your message" cols="30" rows="10" class="input"></textarea>
-
-        <button class="submit" type="submit">Send</button>
-    </form>
+    <div class="card">
+        <form action="#">
+            <h1 style="text-align: center;">Contact Me</h1>
+            <label>Your Name: {{ name }}</label>
+            <input v-model="name" placeholder="Jane Doe" class="input">
+    
+            <label>Your Email: {{ email }}</label>
+            <input v-model="email" placeholder="janedoe@gmail.com" class="input">
+    
+            <span>Message:</span>
+            <p>{{ message }}</p>
+            <textarea v-model="message" placeholder="Add your message" cols="30" rows="10" class="input"></textarea>
+    
+            <button class="submit" type="submit">Send</button>
+        </form>
+    </div>
 </template>
 
 <style>
@@ -29,7 +31,7 @@
         color: white;
         border-radius: 8px;
         max-width: 400px;
-        padding: 30px;
+        padding: 10px;
         box-shadow: 0px 0px 10px black;
     }
 
