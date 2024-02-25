@@ -6,7 +6,7 @@ import { ref } from 'vue'
 <template>
   <div class="nav">
     <div>
-      <h1>Brad Meyer | Full-Stack Developer</h1>
+      <h2>Brad Meyer | Full-Stack Developer</h2>
     </div>
     <div>
       <ul class="nav_links">
@@ -22,10 +22,12 @@ import { ref } from 'vue'
 <style scoped>
 .nav {
   max-width: 1200px;
+  margin: 0px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   position: fixed;
+  background-color: black;
 }
 
 .nav_links {
