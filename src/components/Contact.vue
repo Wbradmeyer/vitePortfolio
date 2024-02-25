@@ -1,25 +1,32 @@
 <script setup></script>
 
 <template>
-    <div class="card">
-        <form action="#">
-            <h1 style="text-align: center;">Contact Me</h1>
-            <label>Your Name: {{ name }}</label>
-            <input v-model="name" placeholder="Jane Doe" class="input">
-    
-            <label>Your Email: {{ email }}</label>
-            <input v-model="email" placeholder="janedoe@gmail.com" class="input">
-    
-            <span>Message:</span>
-            <p>{{ message }}</p>
-            <textarea v-model="message" placeholder="Add your message" cols="30" rows="10" class="input"></textarea>
-    
-            <button class="submit" type="submit">Send</button>
-        </form>
+    <div class="container">
+        <div class="card">
+            <form action="#">
+                <h1 style="text-align: center;">Contact Me</h1>
+                <label>Your Name: {{ name }}</label>
+                <input v-model="name" placeholder="Jane Doe" class="input">
+        
+                <label>Your Email: {{ email }}</label>
+                <input v-model="email" placeholder="janedoe@gmail.com" class="input">
+        
+                <span>Message:</span>
+                <p>{{ message }}</p>
+                <textarea v-model="message" placeholder="Add your message" cols="30" rows="10" class="input"></textarea>
+        
+                <button class="submit" type="submit">Send</button>
+            </form>
+        </div>
     </div>
 </template>
 
 <style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .card {
         margin: 0px;
@@ -44,7 +51,7 @@
     .input {
         border: 2px solid darkslategray;
         border-radius: 5px;
-        width: 400px;
+        width: 100%;
         height: 30px;
     }
 
