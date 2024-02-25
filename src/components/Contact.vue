@@ -20,9 +20,6 @@
 </template>
 
 <style>
-    .contact {
-        color: blue;
-    }
 
     form {
         margin: 0px;
