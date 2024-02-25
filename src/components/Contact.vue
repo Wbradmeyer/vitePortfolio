@@ -21,6 +21,11 @@
 
 <style>
 
+    .card {
+        margin: 0px;
+        padding: 20px;
+    }
+
     form {
         margin: 0px;
         text-align: left;
