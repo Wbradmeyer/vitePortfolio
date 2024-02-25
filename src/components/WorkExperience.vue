@@ -1,11 +1,22 @@
 <script setup></script>
 
 <template>
-    <h1>Work History</h1>
-    <h2>HS Chorus Teacher</h2>
-    <p>Wesleyan School</p>
-    <h2>Chorus Teacher</h2>
-    <p>McEachern High School</p>
+    <div class="work">
+        <h1>Work History</h1>
+        <h2>HS Chorus Teacher</h2>
+        <p>Wesleyan School</p>
+        <h2>Chorus Teacher</h2>
+        <p>McEachern High School</p>
+    </div>
 </template>
 
-<style></style>
+<style>
+    .work {
+        text-align: left;
+        background-color: rgb(24, 18, 18);
+        color: white;
+        border-radius: 8px;
+        max-width: 800px;
+        box-shadow: 0px 0px 10px black;
+    }
+</style>

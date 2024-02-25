@@ -2,9 +2,6 @@
 
 <template>
     <h1>Contact Me</h1>
-    <p class="contact">
-        This will be a form to contact me.
-    </p>
     <form action="#">
         <label>Your Name: {{ name }}</label>
         <input v-model="name" placeholder="Jane Doe" class="input">
@@ -26,7 +23,13 @@
     }
 
     form {
+        margin: 0px;
         text-align: left;
+        background-color: rgb(24, 18, 18);
+        color: white;
+        border-radius: 8px;
+        max-width: 800px;
+        box-shadow: 0px 0px 10px black;
     }
 
     label, input, span, p, button {
@@ -36,7 +39,7 @@
     .input {
         border: 2px solid darkslategray;
         border-radius: 5px;
-        width: 350px;
+        width: 400px;
         height: 30px;
     }
 

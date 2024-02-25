@@ -1,40 +1,32 @@
 <script setup>
 import { ref } from 'vue'
 
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+  <div class="nav">
+    <h1>Brad Meyer</h1>
+    <ul class="nav_links">
+      <li class="link">About Me</li>
+      <li class="link">Work History</li>
+      <li class="link">Projects</li>
+      <li class="link">Contact</li>
+    </ul>
   </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
 }
 </style>
