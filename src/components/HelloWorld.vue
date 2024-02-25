@@ -10,8 +10,6 @@ import { ref } from 'vue'
       <h2>Full-Stack Developer</h2>
     </div>
     <div>
-
-    </div>
       <ul class="nav_links">
         <li class="link">About Me</li>
         <li class="link">Work History</li>
@@ -20,6 +18,7 @@ import { ref } from 'vue'
         <li class="link">Projects</li>
         <li class="link">Contact</li>
       </ul>
+    </div>
   </div>
 </template>
 
