@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-    <h1>Contact Me</h1>
     <form action="#">
+        <h1 style="text-align: center;">Contact Me</h1>
         <label>Your Name: {{ name }}</label>
         <input v-model="name" placeholder="Jane Doe" class="input">
 
@@ -28,7 +28,8 @@
         background-color: rgb(24, 18, 18);
         color: white;
         border-radius: 8px;
-        max-width: 800px;
+        max-width: 400px;
+        padding: 30px;
         box-shadow: 0px 0px 10px black;
     }
 

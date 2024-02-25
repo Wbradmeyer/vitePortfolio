@@ -5,7 +5,7 @@
 
 <template>
     <div class="about">
-        <h1>About Me</h1>
+        <h1 style="text-align: center;">About Me</h1>
         <p>
             I am a full-stack developer and a music educator. I enjoy problem-solving and breaking down 
             information into manageable parts to benefit others and myself. I believe life-long learning 
@@ -28,6 +28,7 @@
         text-align: left;
         background-color: rgb(24, 18, 18);
         color: white;
+        padding: 20px;
         border-radius: 8px;
         max-width: 800px;
         box-shadow: 0px 0px 10px black;
