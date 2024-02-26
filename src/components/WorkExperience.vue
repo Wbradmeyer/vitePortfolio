@@ -12,6 +12,7 @@
 
 <style>
     .work {
+        margin: 20px 0px;
         text-align: left;
         background-color: rgb(24, 18, 18);
         color: white;

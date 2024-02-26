@@ -46,6 +46,6 @@ h2 {
 
 .link {
   text-decoration: none;
-  margin: 0px 5px;
+  margin: 0px 10px;
 }
 </style>
