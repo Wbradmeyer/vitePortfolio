@@ -27,6 +27,10 @@
         justify-content: center;
         align-items: center;
         padding: 20px;
+        background-color: rgb(24, 18, 18);
+        color: white;
+        border-radius: 8px;
+        max-width: 450px;
     }
 
     .card {
@@ -37,10 +41,10 @@
     form {
         margin: 0px;
         text-align: left;
-        background-color: rgb(24, 18, 18);
+        /* background-color: rgb(24, 18, 18);
         color: white;
         border-radius: 8px;
-        max-width: 400px;
+        max-width: 400px; */
         padding: 10px;
         box-shadow: 0px 0px 10px black;
     }

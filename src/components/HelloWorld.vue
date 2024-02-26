@@ -21,7 +21,7 @@ import { ref } from 'vue'
 
 <style scoped>
 
-body {
+template {
   margin: 0;
   padding: 0;
 }
