@@ -46,7 +46,10 @@
 
     label, input, span, p, button {
         display: block;
-        margin: 10px 0px;
+    }
+
+    label {
+        margin: 10px;
     }
 
     .input {
