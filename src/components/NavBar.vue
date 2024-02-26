@@ -10,8 +10,8 @@ import { ref } from 'vue'
     </div>
     <div>
       <ul class="nav_links">
-        <li class="link">About Me</li>
-        <li class="link">Work History</li>
+        <li class="link">About</li>
+        <li class="link">Work</li>
         <li class="link">Projects</li>
         <li class="link">Contact</li>
       </ul>
@@ -20,6 +20,11 @@ import { ref } from 'vue'
 </template>
 
 <style scoped>
+
+h2 {
+  margin: 0px 5px;
+}
+
 .nav {
   width: 100%;
   margin: 0px;
@@ -41,5 +46,6 @@ import { ref } from 'vue'
 
 .link {
   text-decoration: none;
+  margin: 0px 5px;
 }
 </style>
