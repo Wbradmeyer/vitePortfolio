@@ -27,6 +27,8 @@ import { ref } from 'vue'
   justify-content: space-between;
   align-items: baseline;
   position: fixed;
+  top: 0;
+  left: 0;
   background-color: black;
 }
 
