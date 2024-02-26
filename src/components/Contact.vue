@@ -40,7 +40,7 @@
         background-color: rgb(24, 18, 18);
         color: white;
         border-radius: 8px;
-        width: 100%;
+        width: 440px;
         padding: 30px;
         box-shadow: 0px 0px 10px black;
     }
