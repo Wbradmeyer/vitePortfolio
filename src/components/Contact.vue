@@ -46,6 +46,7 @@
 
     label, input, span, p, button {
         display: block;
+        margin: 10px 0px;
     }
 
     .input {
