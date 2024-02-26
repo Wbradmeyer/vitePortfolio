@@ -31,7 +31,6 @@
 
     .card {
         margin: 0px;
-        padding: 20px;
     }
 
     form {
@@ -41,7 +40,7 @@
         color: white;
         border-radius: 8px;
         max-width: 450px;
-        padding: 10px;
+        padding: 30px;
         box-shadow: 0px 0px 10px black;
     }
 
