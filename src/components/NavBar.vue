@@ -20,11 +20,6 @@ import { ref } from 'vue'
 </template>
 
 <style scoped>
-
-template {
-  margin: 0;
-  padding: 0;
-}
 .nav {
   width: 100%;
   margin: 0px;
