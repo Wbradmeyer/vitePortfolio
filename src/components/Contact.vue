@@ -12,7 +12,7 @@
                 <input v-model="email" placeholder="janedoe@gmail.com" class="input">
         
                 <span>Message:</span>
-                <p>{{ message }}</p>
+                <p style="height: 5px;">{{ message }}</p>
                 <textarea v-model="message" placeholder="Add your message" cols="30" rows="10" class="input"></textarea>
         
                 <button class="submit" type="submit">Send</button>
@@ -49,7 +49,7 @@
     }
 
     label {
-        margin: 10px;
+        margin: 10px 0px;
     }
 
     .input {
@@ -57,6 +57,7 @@
         border-radius: 5px;
         width: 100%;
         height: 30px;
+        margin-bottom: 5px;
     }
 
     .submit {
