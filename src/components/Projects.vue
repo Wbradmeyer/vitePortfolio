@@ -23,7 +23,7 @@
 
 <style>
     .projects {
-        margin: 20px 0px;
+        margin: 40px 0px;
     }
 
     .project.pic {
