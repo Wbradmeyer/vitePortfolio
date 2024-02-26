@@ -31,7 +31,7 @@
 
     .card {
         margin: 0px;
-        max-width: 500px;
+        width: 500px;
     }
 
     form {
