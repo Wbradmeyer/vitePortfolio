@@ -8,10 +8,12 @@ import Contact from './components/Contact.vue';
 
 <template>
   <NavBar />
-  <AboutMe />
-  <WorkExperience />
-  <Projects />
-  <Contact />
+  <div>
+    <AboutMe />
+    <WorkExperience />
+    <Projects />
+    <Contact />
+  </div>
 </template>
 
 <style scoped>
