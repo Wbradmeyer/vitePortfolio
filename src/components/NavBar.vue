@@ -5,10 +5,10 @@ import { ref } from 'vue'
 
 <template>
   <div class="nav">
-    <div>
+    <div style="padding-left: 40px;">
       <h2>Brad Meyer | Full-Stack Developer</h2>
     </div>
-    <div>
+    <div style="padding-right: 40px;">
       <ul class="nav_links">
         <li class="link">About</li>
         <li class="link">Work</li>
@@ -21,9 +21,8 @@ import { ref } from 'vue'
 
 <style scoped>
 .nav {
-  width: 100%;
-  margin: 0px 40px;
   padding: 40px 0px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
