@@ -22,8 +22,8 @@ import { ref } from 'vue'
 <style scoped>
 .nav {
   width: 100%;
-  margin: 0px;
-  padding: 40px;
+  margin: 0px 40px;
+  padding: 40px 0px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
