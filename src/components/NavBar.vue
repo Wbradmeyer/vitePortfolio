@@ -20,14 +20,10 @@ import { ref } from 'vue'
 </template>
 
 <style scoped>
-
-h2 {
-  margin: 0px 5px;
-}
-
 .nav {
   width: 100%;
   margin: 0px;
+  padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -35,6 +31,11 @@ h2 {
   top: 0;
   left: 0;
   background-color: black;
+  opacity: 0.8;
+}
+
+h2 {
+  margin: 0px 5px;
 }
 
 .nav_links {
