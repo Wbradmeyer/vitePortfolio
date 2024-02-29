@@ -25,7 +25,7 @@
 
 <style>
     .about {
-        margin: 40px 0px;
+        margin: 80px 0px 40px;
         text-align: left;
         background-color: rgb(24, 18, 18);
         color: white;
