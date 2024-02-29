@@ -24,6 +24,11 @@
 <style>
     .projects {
         margin: 40px 0px;
+        background-color: rgb(24, 18, 18);
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 800px;
+        box-shadow: 0px 0px 10px black;
     }
 
     .project.pic {

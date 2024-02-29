@@ -34,4 +34,8 @@
         max-width: 800px;
         box-shadow: 0px 0px 10px black;
     }
+
+    p {
+        font-size: 16pt;
+    }
 </style>
