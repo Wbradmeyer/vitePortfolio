@@ -29,7 +29,8 @@ import { ref } from 'vue'
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black;
+  /* background-color: black; */
+  background-image: linear-gradient(black, rgb(80, 0, 0));
   opacity: 0.8;
 }
 

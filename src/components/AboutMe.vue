@@ -32,6 +32,6 @@
         padding: 20px;
         border-radius: 8px;
         max-width: 800px;
-        box-shadow: 0px 0px 20px black;
+        box-shadow: 0px 0px 10px black;
     }
 </style>

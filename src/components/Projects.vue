@@ -29,5 +29,6 @@
     .project.pic {
         border-radius: 8px;
         max-width: 400px;
+        box-shadow: 0px 0px 10px black;
     }
 </style>
