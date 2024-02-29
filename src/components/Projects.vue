@@ -27,8 +27,12 @@
         background-color: rgb(24, 18, 18);
         padding: 20px;
         border-radius: 8px;
-        max-width: 800px;
+        max-width: 500px;
         box-shadow: 0px 0px 10px black;
+    }
+
+    h2 {
+        margin: 20px 0px 0px;
     }
 
     .project.pic {

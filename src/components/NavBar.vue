@@ -6,7 +6,7 @@ import { ref } from 'vue'
 <template>
   <div class="nav">
     <div style="padding-left: 40px;">
-      <h1>Brad Meyer | Full-Stack Developer</h1>
+      <h2>Brad Meyer | Full-Stack Developer</h2>
     </div>
     <div style="padding-right: 40px;">
       <ul class="nav_links">
@@ -36,6 +36,7 @@ import { ref } from 'vue'
 
 h2 {
   margin: 0px 5px;
+  font-size: 22pt;
 }
 
 .nav_links {
