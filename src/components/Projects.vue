@@ -1,27 +1,34 @@
 <script setup></script>
 
 <template>
-    <div class="projects">
-        <h1>Projects</h1>
-    
-        <h2>Quiz Show</h2>
-        <a href="https://github.com/Wbradmeyer/quiz_show" target="_blank">
-            <img src="../assets/quiz_show.png" alt="quiz show screenshot" class="project pic">
-        </a>
-    
-        <h2>Instrument Hub</h2>
-        <a href="https://github.com/Wbradmeyer/MeyerSoloProject" target="_blank">
-            <img src="../assets/instrument_hub.png" alt="instrument hub screenshot" class="project pic">
-        </a>
-    
-        <h2>Job Match</h2>
-        <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">
-            <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
-        </a>
+    <div class="proj-container">
+        <div class="projects">
+            <h1>Projects</h1>
+        
+            <h2>Quiz Show</h2>
+            <a href="https://github.com/Wbradmeyer/quiz_show" target="_blank">
+                <img src="../assets/quiz_show.png" alt="quiz show screenshot" class="project pic">
+            </a>
+        
+            <h2>Instrument Hub</h2>
+            <a href="https://github.com/Wbradmeyer/MeyerSoloProject" target="_blank">
+                <img src="../assets/instrument_hub.png" alt="instrument hub screenshot" class="project pic">
+            </a>
+        
+            <h2>Job Match</h2>
+            <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">
+                <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
+            </a>
+        </div>
     </div>
 </template>
 
 <style>
+    .proj-container {
+        display: flex;
+        justify-content: center;
+    }
+
     .projects {
         margin: 40px 0px;
         background-color: rgb(24, 18, 18);
