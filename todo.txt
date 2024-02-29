@@ -1,5 +1,3 @@
-More complex gradient on nav bar
-
 Onhover effects for projects
 
 Contact form emails me
