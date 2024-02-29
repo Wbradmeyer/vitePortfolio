@@ -35,12 +35,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  /* place-items: center; */
   min-width: 320px;
+  width: 100%;
   min-height: 100vh;
-  /* background-color: rgb(51, 0, 0); */
   background-image: linear-gradient(to right, rgb(20, 0, 0), rgb(80, 0, 0), rgb(20, 0, 0));
-  /* background-image: linear-gradient(to right, rgb(80, 0, 0), rgb(20, 0, 0), rgb(80, 0, 0)); */
 }
 
 h1 {
