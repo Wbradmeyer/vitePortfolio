@@ -39,7 +39,7 @@
     }
 
     h2 {
-        margin: 20px 0px 0px;
+        margin: 40px 0px 20px;
     }
 
     .project.pic {
