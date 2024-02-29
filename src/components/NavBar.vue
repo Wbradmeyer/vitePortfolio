@@ -30,7 +30,7 @@ import { ref } from 'vue'
   top: 0;
   left: 0;
   /* background-color: black; */
-  background-image: linear-gradient(black, rgb(80, 0, 0));
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0));
   opacity: 0.8;
 }
 
