@@ -71,16 +71,15 @@
         box-shadow: 0px 0px 10px black;
     }
 
-    a {
+    a, p {
         text-decoration: none;
+        color: white;
         font-size: 14pt;
     }
 
     .info {
         margin-left: 20px;
         text-align: left;
-        border: solid yellow 1px;
         max-width: 360px;
-        font-size: 14pt;
     }
 </style>
