@@ -8,7 +8,7 @@
             <h2>Quiz Show</h2>
             <div class="proj-card">
                 <img src="../assets/quiz_show.png" alt="quiz show screenshot" class="project pic">
-                <div>
+                <div class="info">
                     <a href="https://github.com/Wbradmeyer/quiz_show" target="_blank">GitHub Link</a>
                     <p>Python, Django, HTML, CSS</p>
                     <p>Website for developing a gameboard (initially teacher review sessions)</p>
@@ -18,7 +18,7 @@
             <h2>Instrument Hub</h2>
             <div class="proj-card">
                 <img src="../assets/instrument_hub.png" alt="instrument hub screenshot" class="project pic">
-                <div>
+                <div class="info">
                     <a href="https://github.com/Wbradmeyer/MeyerSoloProject" target="_blank">GitHub Link</a>
                     <p>Python, Flask, MySQL, Bootstrap, HTML</p>
                     <p>Website for buying and selling used instruments</p>
@@ -28,7 +28,7 @@
             <h2>Job Match</h2>
             <div class="proj-card">
                 <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
-                <div>
+                <div class="info">
                     <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">GitHub</a>
                     <p>JavaScript, MongoDB, Express, Node.JS, React, Tailwind</p>
                     <p>Website for job seekers/companies to filter best jobs/candidates</p>
@@ -59,6 +59,8 @@
 
     .proj-card {
         display: flex;
+        justify-content: space-between;
+        align-items: start;
     }
 
     .project.pic {
@@ -70,5 +72,9 @@
     a {
         text-decoration: none;
         font-size: 16pt;
+    }
+
+    .info {
+        text-align: left;
     }
 </style>
