@@ -31,7 +31,7 @@
 
     .projects {
         margin: 40px 0px;
-        background-color: rgb(24, 18, 18);
+        background-color: rgb(33, 33, 33);
         padding: 20px;
         border-radius: 8px;
         max-width: 500px;

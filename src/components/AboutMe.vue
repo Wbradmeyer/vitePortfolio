@@ -27,7 +27,7 @@
     .about {
         margin: 120px 0px 40px;
         text-align: left;
-        background-color: rgb(24, 18, 18);
+        background-color: rgb(33, 33, 33);
         color: white;
         padding: 20px;
         border-radius: 8px;
