@@ -29,7 +29,7 @@
             <div class="proj-card">
                 <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
                 <div class="info">
-                    <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">GitHub</a>
+                    <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">GitHub Link</a>
                     <p>JavaScript, MongoDB, Express, Node.JS, React, Tailwind</p>
                     <p>Website for job seekers/companies to filter best jobs/candidates</p>
                 </div>
