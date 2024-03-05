@@ -77,5 +77,6 @@
     .info {
         text-align: left;
         border: solid yellow 1px;
+        max-width: 360px;
     }
 </style>
