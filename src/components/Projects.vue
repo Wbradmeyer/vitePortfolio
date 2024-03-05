@@ -4,21 +4,36 @@
     <div class="proj-container">
         <div class="projects">
             <h1>Projects</h1>
-        
+            
             <h2>Quiz Show</h2>
-            <a href="https://github.com/Wbradmeyer/quiz_show" target="_blank">
+            <div class="proj-card">
                 <img src="../assets/quiz_show.png" alt="quiz show screenshot" class="project pic">
-            </a>
+                <div>
+                    <a href="https://github.com/Wbradmeyer/quiz_show" target="_blank">GitHub Link</a>
+                    <p>Python, Django, HTML, CSS</p>
+                    <p>Website for developing a gameboard (initially teacher review sessions)</p>
+                </div>
+            </div>
         
             <h2>Instrument Hub</h2>
-            <a href="https://github.com/Wbradmeyer/MeyerSoloProject" target="_blank">
+            <div class="proj-card">
                 <img src="../assets/instrument_hub.png" alt="instrument hub screenshot" class="project pic">
-            </a>
+                <div>
+                    <a href="https://github.com/Wbradmeyer/MeyerSoloProject" target="_blank">GitHub Link</a>
+                    <p>Python, Flask, MySQL, Bootstrap, HTML</p>
+                    <p>Website for buying and selling used instruments</p>
+                </div>
+            </div>
         
             <h2>Job Match</h2>
-            <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">
+            <div>
                 <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
-            </a>
+                <div>
+                    <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">GitHub</a>
+                    <p>JavaScript, MongoDB, Express, Node.JS, React, Tailwind</p>
+                    <p>Website for job seekers/companies to filter best jobs/candidates</p>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -34,7 +49,7 @@
         background-color: rgb(33, 33, 33);
         padding: 20px;
         border-radius: 8px;
-        max-width: 500px;
+        max-width: 800px;
         box-shadow: 0px 0px 10px black;
     }
 
