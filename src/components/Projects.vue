@@ -26,7 +26,7 @@
             </div>
         
             <h2>Job Match</h2>
-            <div>
+            <div class="proj-card">
                 <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
                 <div>
                     <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">GitHub</a>
@@ -57,9 +57,18 @@
         margin: 40px 0px 20px;
     }
 
+    .proj-card {
+        display: flex;
+    }
+
     .project.pic {
         border-radius: 8px;
         max-width: 400px;
         box-shadow: 0px 0px 10px black;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 16pt;
     }
 </style>
