@@ -65,7 +65,7 @@
 
     .project.pic {
         border-radius: 8px;
-        max-width: 400px;
+        max-width: 360px;
         box-shadow: 0px 0px 10px black;
     }
 
@@ -76,5 +76,6 @@
 
     .info {
         text-align: left;
+        border: solid yellow 1px;
     }
 </style>
