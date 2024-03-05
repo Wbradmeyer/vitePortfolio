@@ -37,7 +37,7 @@
     form {
         margin: 0px;
         text-align: left;
-        background-color: rgb(24, 18, 18);
+        background-color: rgb(33, 33, 33);
         color: white;
         border-radius: 8px;
         width: 440px;
