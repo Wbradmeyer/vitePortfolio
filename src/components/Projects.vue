@@ -73,7 +73,7 @@
 
     a {
         text-decoration: none;
-        font-size: 16pt;
+        font-size: 14pt;
     }
 
     .info {
@@ -81,5 +81,6 @@
         text-align: left;
         border: solid yellow 1px;
         max-width: 360px;
+        font-size: 14pt;
     }
 </style>
