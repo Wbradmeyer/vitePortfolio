@@ -3,6 +3,12 @@
 <template>
     <div class="container">
         <div class="card">
+            <h1 style="text-align: center;">Contact Me</h1>
+            <p><img src="../assets/email.jpg" alt="email icon">Email</p>
+            <p><img src="../assets/linkin.png" alt="linkedin icon">LinkedIn</p>
+            <p><img src="../assets/github.png" alt="github icon">GitHub</p>
+        </div>
+        <!-- <div class="card">
             <form action="#">
                 <h1 style="text-align: center;">Contact Me</h1>
                 <label>Your Name: {{ name }}</label>
@@ -17,7 +23,7 @@
         
                 <button class="submit" type="submit">Send</button>
             </form>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -34,7 +40,11 @@
         width: 500px;
     }
 
-    form {
+    img {
+        max-width: 100px;
+    }
+
+    /* form {
         margin: 0px;
         text-align: left;
         background-color: rgb(33, 33, 33);
@@ -43,26 +53,26 @@
         width: 440px;
         padding: 30px;
         box-shadow: 0px 0px 10px black;
-    }
+    } */
 
-    label, input, span, p, button {
+    /* label, input, span, p, button {
         display: block;
-    }
+    } */
 
-    label {
+    /* label {
         margin: 10px 0px;
-    }
+    } */
 
-    .input {
+    /* .input {
         border: 2px solid darkslategray;
         border-radius: 5px;
         width: 100%;
         height: 30px;
         margin-bottom: 10px;
-    }
+    } */
 
-    .submit {
+    /* .submit {
         color: white;
         background-color: dodgerblue;
-    }
+    } */
 </style>
