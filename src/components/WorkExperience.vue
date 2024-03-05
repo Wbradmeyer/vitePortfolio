@@ -10,8 +10,8 @@
             <li>Planned and organized daily rehearsals as well as major annual events</li>
             <li>Directed annual musical theater productions</li>
                 <ul>
-                    <li>(taught/rehearsed all music, contracted and directed a professional orchestra)</li>
-                    <li>/2022 - Nominated for Shuler Hensley Award for Best Music Direction</li>
+                    <li>Taught/rehearsed all music, contracted and directed a professional orchestra</li>
+                    <li>2022 - Nominated for Shuler Hensley Award for Best Music Direction</li>
                 </ul>
         </ul>
         <h2>Chorus Teacher | McEachern High School | 2010-2017</h2>
@@ -34,5 +34,9 @@
         border-radius: 8px;
         max-width: 800px;
         box-shadow: 0px 0px 10px black;
+    }
+
+    li {
+        font-size: 16pt;
     }
 </style>
