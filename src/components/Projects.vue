@@ -40,6 +40,7 @@
 
 <style>
     .proj-container {
+        margin: 0px;
         display: flex;
         justify-content: center;
     }
