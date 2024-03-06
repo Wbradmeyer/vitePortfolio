@@ -38,6 +38,11 @@
     .card {
         margin: 0px;
         width: 500px;
+        text-align: left;
+        background-color: rgb(33, 33, 33);
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0px 0px 10px black;
     }
 
     img {
