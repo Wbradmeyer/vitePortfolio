@@ -72,7 +72,7 @@
     }
 
     .project.pic:hover {
-        opacity: 0.5;
+        transform: scale(1.5);
     }
 
     a, p {
