@@ -4,9 +4,18 @@
     <div class="container">
         <div class="card">
             <h1 style="text-align: center;">Contact Me</h1>
-            <p><img src="../assets/email-1.png" alt="email icon">Email</p>
-            <p><img src="../assets/linkedin1.webp" alt="linkedin icon">LinkedIn</p>
-            <p><img src="../assets/github1.svg" alt="github icon">GitHub</p>
+            <p>
+                <img src="../assets/email-1.png" alt="email icon">
+                <a href="'mailto:'wbradmeyer@gmail.com">Email Me</a>
+            </p>
+            <p>
+                <img src="../assets/linkedin1.webp" alt="linkedin icon">
+                <a href="https://www.linkedin.com/in/wbrad-meyer/">LinkedIn</a>
+            </p>
+            <p>
+                <img src="../assets/github1.svg" alt="github icon">
+                <a href="https://github.com/Wbradmeyer">GitHub</a>
+            </p>
         </div>
         <!-- <div class="card">
             <form action="#">
@@ -37,7 +46,7 @@
 
     .card {
         margin: 0px;
-        width: 500px;
+        width: 300px;
         text-align: left;
         background-color: rgb(33, 33, 33);
         border-radius: 8px;
