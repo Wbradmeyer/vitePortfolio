@@ -73,7 +73,7 @@
     }
 
     .project.pic:hover {
-        transform: scale(1.5);
+        transform: scale(1.25);
     }
 
     a, p {
