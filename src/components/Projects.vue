@@ -47,7 +47,7 @@
 
     .projects {
         margin: 40px 0px;
-        background-color: rgb(33, 33, 33);
+        background-color: rgb(55, 55, 55);
         padding: 20px;
         border-radius: 8px;
         max-width: 800px;

@@ -28,7 +28,7 @@
     .work {
         margin: 40px 0px;
         text-align: left;
-        background-color: rgb(33, 33, 33);
+        background-color: rgb(55, 55, 55);
         color: white;
         padding: 20px;
         border-radius: 8px;
