@@ -4,9 +4,9 @@
     <div class="container">
         <div class="card">
             <h1 style="text-align: center;">Contact Me</h1>
-            <p><img src="../assets/email.jpg" alt="email icon">Email</p>
-            <p><img src="../assets/linkedin.png" alt="linkedin icon">LinkedIn</p>
-            <p><img src="../assets/github.png" alt="github icon">GitHub</p>
+            <p><img src="../assets/email-1.png" alt="email icon">Email</p>
+            <p><img src="../assets/linkedin1.webp" alt="linkedin icon">LinkedIn</p>
+            <p><img src="../assets/github1.svg" alt="github icon">GitHub</p>
         </div>
         <!-- <div class="card">
             <form action="#">
