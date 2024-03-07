@@ -69,6 +69,7 @@
         border-radius: 8px;
         max-width: 360px;
         box-shadow: 0px 0px 10px black;
+        transition: transform 3s;
     }
 
     .project.pic:hover {
