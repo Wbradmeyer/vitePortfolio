@@ -71,6 +71,10 @@
         box-shadow: 0px 0px 10px black;
     }
 
+    .project.pic:hover {
+        opacity: 0.5;
+    }
+
     a, p {
         text-decoration: none;
         color: white;
