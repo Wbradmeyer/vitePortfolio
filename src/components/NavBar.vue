@@ -10,10 +10,10 @@ import { ref } from 'vue'
     </div>
     <div style="padding-right: 40px;">
       <ul class="nav_links">
-        <li class="link">About</li>
-        <li class="link">Work</li>
-        <li class="link">Projects</li>
-        <li class="link">Contact</li>
+        <li><a href="" class="link">About</a></li>
+        <li><a href="" class="link">Work</a></li>
+        <li><a href="" class="link">Projects</a></li>
+        <li><a href="" class="link">Contact</a></li>
       </ul>
     </div>
   </div>

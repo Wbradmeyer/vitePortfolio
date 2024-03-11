@@ -6,7 +6,7 @@
             <h1 style="text-align: center;">Contact Me</h1>
             <p>
                 <img src="../assets/email-1.png" alt="email icon">
-                <a href="'mailto:'wbradmeyer@gmail.com">Email Me</a>
+                <a href="mailto:wbradmeyer@gmail.com">Email Me</a>
             </p>
             <p>
                 <img src="../assets/linkedin1.webp" alt="linkedin icon">
