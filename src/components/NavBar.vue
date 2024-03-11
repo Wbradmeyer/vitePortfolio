@@ -10,10 +10,10 @@ import { ref } from 'vue'
     </div>
     <div style="padding-right: 40px;">
       <ul class="nav_links">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Work</a></li>
-        <li><a href="" class="link">Projects</a></li>
-        <li><a href="" class="link">Contact</a></li>
+        <li><a href="#" class="link" v-scroll-to="'#about-me'">Scroll to #about</a></li>
+        <li><a href="#" class="link" v-scroll-to="'#work'">Work</a></li>
+        <li><a href="#" class="link" v-scroll-to="'#projects'">Projects</a></li>
+        <li><a href="#" class="link" v-scroll-to="'#contact'">Contact</a></li>
       </ul>
     </div>
   </div>
