@@ -1,6 +1,15 @@
 <script setup>
 import { ref } from 'vue'
 
+const scrollTo = (e) => {
+  const element = document.getElementById(e.target)
+  if(element) {
+    const yOffset = 120px;
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset
+    window.scrollTo({ top: y, behavior: 'smooth'})
+  }
+}
+
 </script>
 
 <template>
@@ -10,7 +19,7 @@ import { ref } from 'vue'
     </div>
     <div style="padding-right: 40px;">
       <ul class="nav_links">
-        <li><a href="#about-me" class="link">About</a></li>
+        <li><a href="#about-me" class="link" @click.prevent="scrollTo(this)">About</a></li>
         <li><a href="#work" class="link">Work</a></li>
         <li><a href="#projects" class="link">Projects</a></li>
         <li><a href="#contact" class="link">Contact</a></li>
