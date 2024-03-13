@@ -55,8 +55,12 @@
     }
 
     img {
-        max-width: 100px;
-        margin-right: 10px;
+        max-width: 80px;
+        margin-right: 30px;
+    }
+
+    a {
+        font-size: 16pt;
     }
 
     p {
