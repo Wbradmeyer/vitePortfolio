@@ -51,4 +51,8 @@ h2 {
   margin: 0px 10px;
   font-size: 16pt;
 }
+
+.link:target {
+  margin-top: 120px;
+}
 </style>
