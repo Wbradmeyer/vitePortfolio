@@ -9,7 +9,7 @@
                 <a href="mailto:wbradmeyer@gmail.com">Email Me</a>
             </p>
             <p>
-                <img src="../assets/linkedin2.png" alt="linkedin icon" style="border-radius: 12px;">
+                <img src="../assets/linkedin2.png" alt="linkedin icon" style="border-radius: 12px; max-width: 75px;">
                 <a href="https://www.linkedin.com/in/wbrad-meyer/">LinkedIn</a>
             </p>
             <p>
@@ -17,7 +17,7 @@
                 <a href="https://github.com/Wbradmeyer">GitHub</a>
             </p>
         </div>
-        <!-- <div class="card">
+        <!-- <div class="card"> 
             <form action="#">
                 <h1 style="text-align: center;">Contact Me</h1>
                 <label>Your Name: {{ name }}</label>
