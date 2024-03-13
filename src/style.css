@@ -21,8 +21,9 @@ body {
   /* width: 100%; */
   min-width: 100vh;
   min-height: 100vh;
-  background-image: linear-gradient(to right, rgb(0, 36, 58), 
-                                  rgb(2, 157, 253), rgb(0, 36, 58));
+  background-image: url('pexels-pixabay-36717.jpg');
+  /* background-image: linear-gradient(to right, rgb(0, 36, 58), 
+                                  rgb(2, 157, 253), rgb(0, 36, 58)); */
 }
 
 h1 {
