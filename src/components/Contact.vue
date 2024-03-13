@@ -9,7 +9,7 @@
                 <a href="mailto:wbradmeyer@gmail.com">Email Me</a>
             </p>
             <p>
-                <img src="../assets/linkedin2.png" alt="linkedin icon">
+                <img src="../assets/linkedin2.png" alt="linkedin icon" style="border-radius: 8px;">
                 <a href="https://www.linkedin.com/in/wbrad-meyer/">LinkedIn</a>
             </p>
             <p>
