@@ -53,6 +53,7 @@ h2 {
 }
 
 .link:target {
-  margin-top: 120px;
+  position: relative;
+  top: -120px;
 }
 </style>
