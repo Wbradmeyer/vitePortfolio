@@ -9,7 +9,7 @@
                 <a href="mailto:wbradmeyer@gmail.com">Email Me</a>
             </p>
             <p>
-                <img src="../assets/linkedin2.png" alt="linkedin icon" style="border-radius: 8px;">
+                <img src="../assets/linkedin2.png" alt="linkedin icon" style="border-radius: 12px;">
                 <a href="https://www.linkedin.com/in/wbrad-meyer/">LinkedIn</a>
             </p>
             <p>
@@ -48,7 +48,7 @@
         margin: 0px;
         width: 300px;
         text-align: left;
-        background-color: rgb(55, 55, 55);
+        background-color: rgb(55, 55, 55, 0.4);
         border-radius: 8px;
         padding: 30px;
         box-shadow: 0px 0px 10px black;
