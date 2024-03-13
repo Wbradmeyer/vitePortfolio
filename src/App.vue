@@ -19,8 +19,5 @@ import Contact from './components/Contact.vue';
 
 <style scoped>
 
-body {
-  background-image: url('pexels-pixabay-36717.jpg');
-}
 
 </style>
