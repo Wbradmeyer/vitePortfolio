@@ -52,8 +52,4 @@ h2 {
   font-size: 16pt;
 }
 
-.link {
-  position: relative;
-  top: -120px;
-}
 </style>
