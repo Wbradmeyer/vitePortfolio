@@ -24,7 +24,7 @@ body {
   background-image: url('./assets/pexels-pixabay-36717.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   /* background-image: linear-gradient(to right, rgb(0, 36, 58), 
                                   rgb(2, 157, 253), rgb(0, 36, 58)); */
 }
