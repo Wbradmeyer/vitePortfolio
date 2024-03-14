@@ -17,8 +17,7 @@
 body {
   margin: 0;
   display: flex;
-  width: 100%;
-  /* min-width: 100vh; */
+  min-width: 100vh;
   min-height: 100vh;
   background-image: url('./assets/pexels-pixabay-36717.jpg');
   background-attachment: fixed;
