@@ -50,10 +50,6 @@ h2 {
   text-decoration: none;
   margin: 0px 10px;
   font-size: 16pt;
-}
-
-.work {
   scroll-margin-top: 40px;
 }
-
 </style>
