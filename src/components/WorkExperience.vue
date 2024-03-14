@@ -25,8 +25,12 @@
 </template>
 
 <style>
+    .container {
+        padding: 120px 0px 0px;
+    }
+
     .work {
-        margin: 40px 0px;
+        margin: 0px 0px 40px;
         text-align: left;
         background-color: rgb(55, 55, 55, 0.5);
         color: white;
