@@ -52,4 +52,8 @@ h2 {
   font-size: 16pt;
 }
 
+.work {
+  scroll-margin-top: 40px;
+}
+
 </style>
