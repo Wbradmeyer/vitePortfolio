@@ -43,6 +43,7 @@
         margin: 0px;
         display: flex;
         justify-content: center;
+        padding: 120px 0px 0px;
     }
 
     .projects {
