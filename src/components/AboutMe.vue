@@ -42,6 +42,6 @@
     }
 
     p {
-        font-size: 16pt;
+        font-size: 20pt;
     }
 </style>

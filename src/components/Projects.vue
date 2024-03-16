@@ -80,7 +80,7 @@
     a, p {
         text-decoration: none;
         color: white;
-        font-size: 14pt;
+        font-size: 18pt;
     }
 
     .info {

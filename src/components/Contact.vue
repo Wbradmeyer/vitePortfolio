@@ -60,7 +60,7 @@
     }
 
     a {
-        font-size: 16pt;
+        font-size: 18pt;
     }
 
     p {
