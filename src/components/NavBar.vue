@@ -51,9 +51,9 @@ h2 {
   margin: 0px 10px;
   font-size: 16pt;
   scroll-margin-top: 40px;
-  background-color: rgb(55, 55, 55, 0.5);
+  background-color: rgba(123, 123, 123, 0.5);
   border-radius: 8px;
-  padding: 5px;
+  padding: 5px 10px;
   box-shadow: 0px 0px 10px black;
 }
 </style>
