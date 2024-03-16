@@ -34,12 +34,12 @@
     .work {
         margin: 0px 0px 40px;
         text-align: left;
-        background-color: rgb(55, 55, 55, 0.5);
+        /* background-color: rgb(55, 55, 55, 0.5); */
         color: white;
         padding: 20px;
-        border-radius: 8px;
+        /* border-radius: 8px; */
         max-width: 800px;
-        box-shadow: 0px 0px 10px black;
+        /* box-shadow: 0px 0px 10px black; */
     }
 
     li {

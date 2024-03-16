@@ -48,10 +48,10 @@
         margin: 0px;
         width: 300px;
         text-align: left;
-        background-color: rgb(55, 55, 55, 0.5);
-        border-radius: 8px;
+        /* background-color: rgb(55, 55, 55, 0.5); */
+        /* border-radius: 8px; */
         padding: 30px;
-        box-shadow: 0px 0px 10px black;
+        /* box-shadow: 0px 0px 10px black; */
     }
 
     img {
