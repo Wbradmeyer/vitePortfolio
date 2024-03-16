@@ -42,6 +42,10 @@
         /* box-shadow: 0px 0px 10px black; */
     }
 
+    h2 {
+        font-size: 20pt;
+    }
+
     li {
         font-size: 18pt;
     }
