@@ -6,7 +6,7 @@ import { ref } from 'vue'
 <template>
   <div class="nav">
     <div style="padding-left: 40px;">
-      <h2>W. Brad Meyer | Full-Stack Developer</h2>
+      <h2>W. Brad Meyer | Developer</h2>
     </div>
     <div style="padding-right: 40px;">
       <ul class="nav_links">
@@ -51,5 +51,9 @@ h2 {
   margin: 0px 10px;
   font-size: 16pt;
   scroll-margin-top: 40px;
+  background-color: rgb(55, 55, 55, 0.5);
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px black;
 }
 </style>
