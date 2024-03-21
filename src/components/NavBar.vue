@@ -35,7 +35,7 @@ const toggleLinks = () => {
 <style scoped>
 .nav {
   padding: 40px 80px 40px;
-  max-height: 208px;
+  max-height: 168px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -74,9 +74,9 @@ img {
   display: block;
   text-decoration: none;
   font-size: 14pt;
-  background-color: rgba(123, 123, 123, 0.5);
+  background-color: rgba(123, 123, 123, 0.2);
   border-radius: 8px;
-  padding: 5px 5px;
-  box-shadow: 0px 0px 10px black;
+  padding: 5px 3px;
+  box-shadow: 0px 0px 5px black;
 }
 </style>
