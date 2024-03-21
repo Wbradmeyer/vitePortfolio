@@ -18,7 +18,7 @@ const toggleLinks = () => {
     <div>
       <h2>W. Brad Meyer | Developer</h2>
     </div>
-    <div style="padding-right: 80px;">
+    <div class="link_box">
       <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger.jpg" alt="hamburger">
       </a>
@@ -35,6 +35,7 @@ const toggleLinks = () => {
 <style scoped>
 .nav {
   padding: 40px 40px 40px;
+  max-height: 168px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -51,6 +52,11 @@ const toggleLinks = () => {
 h2 {
   margin: 0px 5px;
   font-size: 22pt;
+}
+
+.link_box {
+  border: 1 solid white;
+  padding-right: 80px;
 }
 
 #nav_links {
