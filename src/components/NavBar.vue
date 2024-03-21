@@ -25,7 +25,7 @@ const toggleLinks = () => {
         <li><a href="#projects" class="link">Projects</a></li>
         <li><a href="#contact" class="link">Contact</a></li>
       </div>
-      <a href="javascript:void(0);" class="icon" @click="toggleLinks()"></a>
+      <a href="javascript:void(0);" class="icon" @click="toggleLinks()"><img src="../assets/hamburger.jpg" alt="hamburger"></a>
     </div>
   </div>
 </template>
@@ -62,7 +62,7 @@ h2 {
 } */
 
 a.icon {
-  background-image: url('../assets/hamburger.jpg');
+  /* background-image: url('../assets/hamburger.jpg'); */
   display: block;
   position: absolute;
   right: 0;
