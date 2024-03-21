@@ -54,7 +54,6 @@ h2 {
 }
 
 .link_box {
-  border: 1px solid white;
   padding-right: 80px;
   text-align: left;
 }
@@ -68,7 +67,7 @@ h2 {
 }
 
 img {
-  max-width: 60px;
+  max-width: 50px;
   color: white;
 }
 
