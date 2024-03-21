@@ -39,12 +39,10 @@ const toggleLinks = () => {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* align-items: baseline; */
   align-items: top;
   position: fixed;
   top: 0;
   left: 0;
-  /* background-color: black; */
   background-image: linear-gradient(black, black, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   opacity: 0.8;
 }
@@ -55,20 +53,13 @@ h2 {
 }
 
 .link_box {
-  border: 1 solid white;
+  border: 1px solid white;
   padding-right: 80px;
 }
 
 #nav_links {
   display: none;
 }
-
-/* .nav_links {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  list-style-type: none;
-} */
 
 .icon {
   display: block;
@@ -82,7 +73,7 @@ img {
 .link {
   display: block;
   text-decoration: none;
-  font-size: 16pt;
+  font-size: 14pt;
   background-color: rgba(123, 123, 123, 0.5);
   border-radius: 8px;
   padding: 5px 5px;
