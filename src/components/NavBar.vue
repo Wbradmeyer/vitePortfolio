@@ -20,10 +20,10 @@ const toggleLinks = () => {
     </div>
     <div style="padding-right: 40px;">
       <div class="nav_links">
-        <li><a href="#about-me" class="link">About</a></li>
-        <li><a href="#work" class="link">Work</a></li>
-        <li><a href="#projects" class="link">Projects</a></li>
-        <li><a href="#contact" class="link">Contact</a></li>
+        <a href="#about-me" class="link">About</a>
+        <a href="#work" class="link">Work</a>
+        <a href="#projects" class="link">Projects</a>
+        <a href="#contact" class="link">Contact</a>
       </div>
       <a href="javascript:void(0);" class="icon" @click="toggleLinks()"><img src="../assets/hamburger.jpg" alt="hamburger"></a>
     </div>
@@ -61,12 +61,8 @@ h2 {
   list-style-type: none;
 } */
 
-a.icon {
-  /* background-image: url('../assets/hamburger.jpg'); */
+.icon {
   display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .link {
