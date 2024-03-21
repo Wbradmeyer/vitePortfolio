@@ -4,7 +4,7 @@
     <div class="container">
         <div class="work">
             <h1 style="text-align: center;">Work History</h1>
-            <h2>HS Chorus Teacher | Wesleyan School | 2017-Present</h2>
+            <h2>Chorus Teacher | Wesleyan School | 2017-Present</h2>
             <ul>
                 <li>Collaborated with essential stakeholders across lower, middle, and high school 
                     divisions to present performances</li>
@@ -15,7 +15,7 @@
                         <li>2022 - Nominated for Shuler Hensley Award for Best Music Direction</li>
                     </ul>
             </ul>
-            <h2>Chorus Teacher | McEachern High School | 2010-2017</h2>
+            <h2>Chorus Teacher | McEachern High | 2010-2017</h2>
             <ul>
                 <li>Developed and directed around 150 young singers annually fostering a supportive atmosphere</li>
                 <li>Competed in a thriving county among the top-rated programs in the state</li>
