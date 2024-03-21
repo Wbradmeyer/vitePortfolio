@@ -18,7 +18,7 @@ const toggleLinks = () => {
     <div>
       <h2>W. Brad Meyer | Developer</h2>
     </div>
-    <div style="padding-right: 120px;">
+    <div style="padding-right: 80px;">
       <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger.jpg" alt="hamburger">
       </a>
@@ -79,7 +79,7 @@ img {
   font-size: 16pt;
   background-color: rgba(123, 123, 123, 0.5);
   border-radius: 8px;
-  padding: 5px 10px;
+  padding: 5px 5px;
   box-shadow: 0px 0px 10px black;
 }
 </style>
