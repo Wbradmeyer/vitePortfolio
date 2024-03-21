@@ -34,8 +34,8 @@ const toggleLinks = () => {
 
 <style scoped>
 .nav {
-  padding: 40px 40px 40px;
-  max-height: 168px;
+  padding: 40px 80px 40px;
+  max-height: 208px;
   width: 100%;
   display: flex;
   justify-content: space-between;
