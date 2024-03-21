@@ -65,8 +65,9 @@ h2 {
 } */
 
 .icon {
+  margin: 0px;
   display: block;
-  max-width: 50px;
+  max-width: 30px;
 }
 
 .link {
