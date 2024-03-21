@@ -55,6 +55,7 @@ h2 {
 .link_box {
   border: 1px solid white;
   padding-right: 80px;
+  text-align: left;
 }
 
 #nav_links {
@@ -66,16 +67,15 @@ h2 {
 }
 
 img {
-  margin: 0px;
-  max-width: 65px;
+  max-width: 60px;
 }
 
 .link {
   display: block;
   text-decoration: none;
   font-size: 14pt;
-  background-color: rgba(123, 123, 123, 0.2);
-  border-radius: 8px;
+  /* background-color: rgba(123, 123, 123, 0.2);
+  border-radius: 8px; */
   /* padding: 5px 2px;
   box-shadow: 0px 0px 3px black; */
 }
