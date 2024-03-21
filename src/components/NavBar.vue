@@ -15,17 +15,19 @@ const toggleLinks = () => {
 
 <template>
   <div class="nav">
-    <div>
+    <div style="position: fixed;">
       <h2>W. Brad Meyer | Developer</h2>
     </div>
-    <div>
+    <div style="padding: 40px;">
+      <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
+        <img src="../assets/hamburger.jpg" alt="hamburger">
+      </a>
       <div id="nav_links">
         <a href="#about-me" class="link">About</a>
         <a href="#work" class="link">Work</a>
         <a href="#projects" class="link">Projects</a>
         <a href="#contact" class="link">Contact</a>
       </div>
-      <a href="javascript:void(0);" class="icon" @click="toggleLinks()"><img src="../assets/hamburger.jpg" alt="hamburger"></a>
     </div>
   </div>
 </template>
