@@ -15,10 +15,10 @@ const toggleLinks = () => {
 
 <template>
   <div class="nav">
-    <div style="padding-left: 40px;">
+    <div>
       <h2>W. Brad Meyer | Developer</h2>
     </div>
-    <div style="padding-right: 40px;">
+    <div>
       <div class="nav_links">
         <a href="#about-me" class="link">About</a>
         <a href="#work" class="link">Work</a>
@@ -32,7 +32,7 @@ const toggleLinks = () => {
 
 <style scoped>
 .nav {
-  padding: 40px 0px;
+  padding: 40px 40px;
   width: 100%;
   display: flex;
   justify-content: space-between;
