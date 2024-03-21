@@ -51,7 +51,7 @@ h2 {
   font-size: 22pt;
 }
 
-.nav_links {
+#nav_links {
   display: none;
 }
 
