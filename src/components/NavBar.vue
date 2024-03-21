@@ -62,7 +62,7 @@ h2 {
 } */
 
 a.icon {
-  background-image: url('./assets/hamburger.jpg');
+  background-image: url('../assets/hamburger.jpg');
   display: block;
   position: absolute;
   right: 0;
