@@ -20,7 +20,8 @@ const toggleLinks = () => {
     </div>
     <div class="link_box">
       <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
-        <img src="../assets/hamburger.jpg" alt="hamburger">
+        <img src="../assets/hamburger1.png" alt="hamburger">
+        <!-- <img src="../assets/hamburger.jpg" alt="hamburger"> -->
       </a>
       <div id="nav_links">
         <a href="#about-me" class="link">About</a>
