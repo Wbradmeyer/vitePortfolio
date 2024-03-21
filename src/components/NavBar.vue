@@ -76,7 +76,7 @@ h2 {
 
 img {
   margin: 0px;
-  max-width: 80px;
+  max-width: 60px;
 }
 
 .link {
