@@ -39,7 +39,7 @@ const toggleLinks = () => {
   display: flex;
   justify-content: space-between;
   /* align-items: baseline; */
-  align-items: start;
+  align-items: top;
   position: fixed;
   top: 0;
   left: 0;
@@ -76,9 +76,7 @@ img {
 .link {
   display: block;
   text-decoration: none;
-  margin: 0px;
   font-size: 16pt;
-  scroll-margin-top: 40px;
   background-color: rgba(123, 123, 123, 0.5);
   border-radius: 8px;
   padding: 5px 10px;
