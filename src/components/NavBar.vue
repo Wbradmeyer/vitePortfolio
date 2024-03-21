@@ -67,7 +67,7 @@ h2 {
 
 img {
   margin: 0px;
-  max-width: 60px;
+  max-width: 65px;
 }
 
 .link {
@@ -76,7 +76,7 @@ img {
   font-size: 14pt;
   background-color: rgba(123, 123, 123, 0.2);
   border-radius: 8px;
-  padding: 5px 3px;
-  box-shadow: 0px 0px 5px black;
+  padding: 5px 2px;
+  box-shadow: 0px 0px 3px black;
 }
 </style>
