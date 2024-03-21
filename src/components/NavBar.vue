@@ -20,7 +20,7 @@ const toggleLinks = () => {
     </div>
     <div class="link_box">
       <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
-        <img src="../assets/hamburger2.png" alt="hamburger">
+        <img src="../assets/hamburger3.png" alt="hamburger">
         <!-- <img src="../assets/hamburger.jpg" alt="hamburger"> -->
       </a>
       <div id="nav_links">
@@ -69,6 +69,7 @@ h2 {
 
 img {
   max-width: 60px;
+  color: white;
 }
 
 .link {
