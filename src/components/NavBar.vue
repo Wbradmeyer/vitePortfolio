@@ -15,10 +15,10 @@ const toggleLinks = () => {
 
 <template>
   <div class="nav">
-    <div style="position: fixed;">
+    <div>
       <h2>W. Brad Meyer | Developer</h2>
     </div>
-    <div style="padding: 40px;">
+    <div style="padding-right: 40px;">
       <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger.jpg" alt="hamburger">
       </a>
