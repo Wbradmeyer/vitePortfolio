@@ -76,7 +76,7 @@ img {
   font-size: 14pt;
   background-color: rgba(123, 123, 123, 0.2);
   border-radius: 8px;
-  padding: 5px 2px;
-  box-shadow: 0px 0px 3px black;
+  /* padding: 5px 2px;
+  box-shadow: 0px 0px 3px black; */
 }
 </style>
