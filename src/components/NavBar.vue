@@ -34,12 +34,12 @@ const toggleLinks = () => {
 
 <style scoped>
 .nav {
-  padding: 40px 40px;
+  padding: 80px 40px 0px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   /* align-items: baseline; */
-  align-items: center;
+  align-items: start;
   position: fixed;
   top: 0;
   left: 0;
@@ -66,12 +66,13 @@ h2 {
 
 .icon {
   display: block;
+  max-width: 50px;
 }
 
 .link {
   display: block;
   text-decoration: none;
-  margin: 0px 10px;
+  margin: 0px;
   font-size: 16pt;
   scroll-margin-top: 40px;
   background-color: rgba(123, 123, 123, 0.5);
