@@ -54,12 +54,12 @@ h2 {
   display: none;
 }
 
-.nav_links {
+/* .nav_links {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   list-style-type: none;
-}
+} */
 
 a.icon {
   background-image: url('./assets/hamburger.jpg');
