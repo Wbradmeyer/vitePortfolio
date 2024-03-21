@@ -19,7 +19,7 @@ const toggleLinks = () => {
       <h2>W. Brad Meyer | Developer</h2>
     </div>
     <div>
-      <div class="nav_links">
+      <div id="nav_links">
         <a href="#about-me" class="link">About</a>
         <a href="#work" class="link">Work</a>
         <a href="#projects" class="link">Projects</a>
@@ -36,7 +36,8 @@ const toggleLinks = () => {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  /* align-items: baseline; */
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
