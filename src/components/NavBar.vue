@@ -1,6 +1,16 @@
 <script setup>
 import { ref } from 'vue'
 
+
+const toggleLinks = () => {
+  let x = document.getElementById("nav_links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 </script>
 
 <template>
@@ -9,12 +19,13 @@ import { ref } from 'vue'
       <h2>W. Brad Meyer | Developer</h2>
     </div>
     <div style="padding-right: 40px;">
-      <ul class="nav_links">
+      <div class="nav_links">
         <li><a href="#about-me" class="link">About</a></li>
         <li><a href="#work" class="link">Work</a></li>
         <li><a href="#projects" class="link">Projects</a></li>
         <li><a href="#contact" class="link">Contact</a></li>
-      </ul>
+      </div>
+      <a href="javascript:void(0);" class="icon" @click="toggleLinks()"></a>
     </div>
   </div>
 </template>
@@ -40,13 +51,26 @@ h2 {
 }
 
 .nav_links {
+  display: none;
+}
+
+.nav_links {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   list-style-type: none;
 }
 
+a.icon {
+  background-image: url('./assets/hamburger.jpg');
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .link {
+  display: block;
   text-decoration: none;
   margin: 0px 10px;
   font-size: 16pt;
