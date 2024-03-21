@@ -18,7 +18,7 @@ const toggleLinks = () => {
     <div>
       <h2>W. Brad Meyer | Developer</h2>
     </div>
-    <div style="padding-right: 40px;">
+    <div style="padding-right: 120px;">
       <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger.jpg" alt="hamburger">
       </a>
@@ -70,7 +70,7 @@ h2 {
 
 img {
   margin: 0px;
-  max-width: 50px;
+  max-width: 80px;
 }
 
 .link {
