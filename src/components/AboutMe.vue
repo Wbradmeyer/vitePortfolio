@@ -37,7 +37,7 @@
         color: white;
         padding: 20px;
         /* border-radius: 8px; */
-        max-width: 800px;
+        max-width: 850px;
         /* box-shadow: 0px 0px 10px black; */
     }
 
