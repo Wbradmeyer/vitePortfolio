@@ -25,7 +25,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .container {
         padding: 120px 0px 0px;
     }
