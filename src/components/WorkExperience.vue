@@ -34,12 +34,9 @@
     .work {
         margin: 0px 0px 40px;
         text-align: left;
-        /* background-color: rgb(55, 55, 55, 0.5); */
         color: white;
         padding: 20px;
-        /* border-radius: 8px; */
         max-width: 850px;
-        /* box-shadow: 0px 0px 10px black; */
     }
 
     h2 {
@@ -48,5 +45,15 @@
 
     li {
         font-size: 18pt;
+    }
+
+    @media screen and (max-width: 480px) {
+        h2 {
+            font-size: 24pt;
+        }
+        
+        li {
+            font-size: 22pt;
+        }
     }
 </style>
