@@ -38,7 +38,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .proj-container {
         margin: 0px;
         display: flex;
