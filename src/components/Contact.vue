@@ -26,6 +26,7 @@
         justify-content: center;
         align-items: center;
         margin: 40px 0px;
+        padding: 120px 0px 0px;
     }
 
     .card {
