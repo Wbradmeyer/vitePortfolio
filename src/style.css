@@ -75,5 +75,6 @@ button:focus-visible {
 @media screen and (max-width: 480px) {
   body {
     background-image: url('./assets/pexels-sasha-martynov-1212600.jpg');
+    background-position: scroll;
   }
 }
