@@ -76,7 +76,7 @@ button:focus-visible {
   /* body {
     background-attachment: scroll;
   } */
-  selector:after {
+  body {
     background-image: url('./assets/pexels-sasha-martynov-1212600.jpg');
     content: '';
     width: 100%;
@@ -89,5 +89,5 @@ button:focus-visible {
     position: fixed;
     top: 0;
     z-index: -1;
-}
+  }
 }
