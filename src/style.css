@@ -74,7 +74,7 @@ button:focus-visible {
 @media screen and (max-width: 480px) {
   body {
     background-image: url('./assets/pexels-sasha-martynov-1212600.jpg');
-    background-size: contain;
+    background-size: 100vh;
     /* background-image: linear-gradient(to right, rgb(0, 36, 58), 
                                   rgb(2, 157, 253), rgb(0, 36, 58)); */
     padding: 30px;
