@@ -21,7 +21,6 @@ const toggleLinks = () => {
     <div class="link_box">
       <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger3.png" alt="hamburger">
-        <!-- <img src="../assets/hamburger.jpg" alt="hamburger"> -->
       </a>
       <div id="nav_links">
         <a href="#about-me" class="link">About</a>
@@ -75,9 +74,19 @@ img {
   display: block;
   text-decoration: none;
   font-size: 14pt;
-  /* background-color: rgba(123, 123, 123, 0.2);
-  border-radius: 8px; */
-  /* padding: 5px 2px;
-  box-shadow: 0px 0px 3px black; */
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 26pt;
+  }
+
+  img {
+    max-width: 80px;
+  }
+
+  .link {
+    font-size: 20pt;
+  }
 }
 </style>

@@ -48,11 +48,8 @@
 
     .projects {
         margin: 0px;
-        /* background-color: rgb(55, 55, 55, 0.5); */
         padding: 20px;
-        /* border-radius: 8px; */
         max-width: 850px;
-        /* box-shadow: 0px 0px 10px black; */
     }
 
     h2 {
@@ -87,5 +84,20 @@
         margin-left: 20px;
         text-align: left;
         max-width: 360px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .proj-card {
+            display: block;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 28pt;
+        }
+
+        a, p {
+            font-size: 26pt;
+        }
     }
 </style>

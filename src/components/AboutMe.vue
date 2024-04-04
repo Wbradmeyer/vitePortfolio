@@ -33,15 +33,23 @@
     .about {
         margin: 0px 0px 40px;
         text-align: left;
-        /* background-color: rgb(55, 55, 55, 0.5); */
         color: white;
         padding: 20px;
-        /* border-radius: 8px; */
         max-width: 850px;
-        /* box-shadow: 0px 0px 10px black; */
     }
 
     p {
         font-size: 20pt;
+    }
+
+    @media screen and (max-width: 480px) {
+        p {
+            font-size: 26pt;
+        }
+
+        .about {
+            margin: 0px 20px 40px;
+            padding: 30px;
+        }
     }
 </style>
