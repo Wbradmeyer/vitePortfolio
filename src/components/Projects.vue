@@ -14,7 +14,7 @@
                     <p>Website for developing a gameboard (initially teacher review sessions)</p>
                 </div>
             </div>
-        
+            <hr>
             <h2>Instrument Hub</h2>
             <div class="proj-card">
                 <img src="../assets/instrument_hub.png" alt="instrument hub screenshot" class="project pic">
@@ -24,7 +24,7 @@
                     <p>Website for buying and selling used instruments</p>
                 </div>
             </div>
-        
+            <hr>
             <h2>Job Match</h2>
             <div class="proj-card">
                 <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
@@ -90,6 +90,10 @@
         .proj-card {
             display: block;
             text-align: left;
+        }
+
+        .project.pic {
+            max-width: 480px;
         }
 
         h2 {
