@@ -46,6 +46,7 @@
 
     a {
         font-size: 18pt;
+        color: aliceblue;
     }
 
     p {
