@@ -39,7 +39,7 @@
                 <img src="../assets/recipe_app.png" alt="recipe app screenshot" class="project pic">
                 <div class="info">
                     <a href="https://github.com/Wbradmeyer/django_react_recipes" target="_blank">GitHub Link</a>
-                    <p>Python, Django, Django REST, React</p>
+                    <p>Python, JavaScript, Django, React, Django REST</p>
                     <p>Site for storing, searching, and displaying recipes</p>
                 </div>
             </div>
