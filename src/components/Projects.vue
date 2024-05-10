@@ -34,6 +34,7 @@
                     <p>Website for job seekers/companies to filter best jobs/candidates</p>
                 </div>
             </div>
+            <hr>
             <h2>Recipe App</h2>
             <div class="proj-card">
                 <img src="../assets/recipe_app.png" alt="recipe app screenshot" class="project pic">
