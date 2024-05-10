@@ -72,6 +72,7 @@ img {
 
 .link {
   display: block;
+  color: aliceblue;
   text-decoration: none;
   font-size: 14pt;
 }
