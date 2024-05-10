@@ -34,6 +34,15 @@
                     <p>Website for job seekers/companies to filter best jobs/candidates</p>
                 </div>
             </div>
+            <h2>Recipe App</h2>
+            <div class="proj-card">
+                <img src="../assets/recipe_app.png" alt="recipe app screenshot" class="project pic">
+                <div class="info">
+                    <a href="https://github.com/Wbradmeyer/django_react_recipes" target="_blank">GitHub Link</a>
+                    <p>Python, Django, Django REST, React</p>
+                    <p>Site for storing, searching, and displaying recipes</p>
+                </div>
+            </div>
         </div>
     </div>
 </template>
