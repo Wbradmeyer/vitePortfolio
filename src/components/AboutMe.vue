@@ -26,30 +26,48 @@
 </template>
 
 <style scoped>
-    .container {
+    /* .container {
         padding: 120px 0px 0px;
+    } */
+
+    .container {
+        padding: 100px 0 0;
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .about {
         margin: 0px 0px 40px;
-        text-align: left;
+        /* text-align: left; */
+        text-align: justify;
         color: white;
         padding: 20px;
         max-width: 850px;
     }
 
     p {
-        font-size: 20pt;
+        /* font-size: 20pt; */
+        font-size: 18pt;
+        line-height: 1.6;
     }
 
     @media screen and (max-width: 480px) {
         p {
-            font-size: 26pt;
+            font-size: 14pt;
+            /* font-size: 26pt; */
         }
 
-        .about {
+        /* .about {
             margin: 0px 20px 40px;
             padding: 30px;
+        } */
+        .about {
+            margin: 0 5%; /* Use percentages for consistent spacing */
+            padding: 1.5rem;
+        }
+
+        .container {
+            padding: 60px 0 0; /* Adjust top padding */
         }
     }
 </style>
