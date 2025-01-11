@@ -1,14 +1,19 @@
 <script setup>
 import { ref } from 'vue'
 
+const isMenuOpen = ref(false)
+
+// const toggleLinks = () => {
+//   let x = document.getElementById("nav_links");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }
 
 const toggleLinks = () => {
-  let x = document.getElementById("nav_links");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+  isMenuOpen.value = !isMenuOpen.value
 }
 
 </script>
@@ -19,10 +24,18 @@ const toggleLinks = () => {
       <h2>W. Brad Meyer | Developer</h2>
     </div>
     <div class="link_box">
-      <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
+      <button 
+        class="icon" 
+        @click="toggleLinks" 
+        aria-label="Toggle Navigation" 
+        aria-expanded="isMenuOpen"
+      >
+        <img src="../assets/hamburger3.png" alt="hamburger">  
+      </button>
+      <!-- <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger3.png" alt="hamburger">
-      </a>
-      <div id="nav_links">
+      </a> -->
+      <div id="nav_links" v-show="isMenuOpen || window.innerWidth > 480">
         <a href="#about-me" class="link">About</a>
         <a href="#work" class="link">Work</a>
         <a href="#projects" class="link">Projects</a>
@@ -33,7 +46,7 @@ const toggleLinks = () => {
 </template>
 
 <style scoped>
-.nav {
+/* .nav {
   padding: 40px 40px 40px;
   height: 80px;
   width: 100%;
@@ -45,40 +58,88 @@ const toggleLinks = () => {
   left: 0;
   background-image: linear-gradient(black, black, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   opacity: 0.8;
+} */
+
+.nav {
+  padding: 20px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
 }
 
-h2 {
+/* h2 {
   margin: 0px 5px;
   font-size: 22pt;
-}
+} */
 
-.link_box {
-  padding-right: 80px;
-  text-align: left;
-}
-
-#nav_links {
-  display: none;
-}
-
-.icon {
-  display: block;
-}
-
-img {
-  max-width: 50px;
+h2 {
+  margin: 0;
+  font-size: 18pt;
   color: white;
 }
 
+/* .link_box {
+  padding-right: 80px;
+  text-align: left;
+} */
+
+.link_box {
+  text-align: right;
+}
+
+/* #nav_links {
+  display: none;
+} */
+
+#nav_links {
+  display: flex;
+  gap: 1.5rem; /* Adds spacing between links */
+  align-items: center;
+}
+
 .link {
-  display: block;
+  /* display: block; */
   color: aliceblue;
   text-decoration: none;
   font-size: 14pt;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #f460ff;
+}
+
+.icon {
+  /* display: block; */
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* img {
+  max-width: 50px;
+  color: white;
+} */
+
+img {
+  max-width: 30px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 480px) {
-  h2 {
+  /* h2 {
     font-size: 26pt;
   }
 
@@ -88,6 +149,26 @@ img {
 
   .link {
     font-size: 20pt;
+  } */
+
+  .icon {
+    display: block;
+  }
+
+  #nav_links {
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .link {
+    font-size: 16pt;
+    margin: 0.5rem 0;
   }
 }
 </style>
