@@ -1,8 +1,17 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 
 const isMenuOpen = ref(false)
 
+const shouldShowLinks = computed(() => isMenuOpen.value || window.innerWidth > 480)
+
+const updateMenuState = () => {
+  isMenuOpen.value = false
+}
+
+onMounted(() => {
+  window.addEventListener('resize', updateMenuState)
+})
 // const toggleLinks = () => {
 //   let x = document.getElementById("nav_links");
 //   if (x.style.display === "block") {
@@ -28,14 +37,14 @@ const toggleLinks = () => {
         class="icon" 
         @click="toggleLinks" 
         aria-label="Toggle Navigation" 
-        aria-expanded="isMenuOpen"
+        :aria-expanded="isMenuOpen"
       >
         <img src="../assets/hamburger3.png" alt="hamburger">  
       </button>
       <!-- <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger3.png" alt="hamburger">
       </a> -->
-      <div id="nav_links" v-show="isMenuOpen || window.innerWidth > 480">
+      <div id="nav_links" v-show="shouldShowLinks">
         <a href="#about-me" class="link">About</a>
         <a href="#work" class="link">Work</a>
         <a href="#projects" class="link">Projects</a>
@@ -99,7 +108,7 @@ h2 {
 
 #nav_links {
   display: flex;
-  gap: 1.5rem; /* Adds spacing between links */
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -164,6 +173,10 @@ img:hover {
     background: rgba(0, 0, 0, 0.9);
     padding: 1rem;
     border-radius: 0 0 10px 10px;
+  }
+
+  #nav_links[style*="display: flex;"] {
+    display: flex;
   }
 
   .link {
