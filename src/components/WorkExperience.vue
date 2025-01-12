@@ -49,14 +49,13 @@ const workHistory = [
 </template>
 
 <style scoped>
-    /* .container {
-        padding: 120px 0px 0px;
-    } */
-
     .container {
-        padding: 120px 0 0;
+        /* padding: 120px 0 0; */
         display: flex;
         justify-content: center;
+        padding: 100px 0 0;
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .work {
