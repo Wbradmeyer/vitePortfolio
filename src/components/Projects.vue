@@ -116,7 +116,7 @@ const projects = [
     .github-link {
         display: inline-block;
         margin-bottom: 10px;
-        color: #f460ff;
+        color: white;
         text-decoration: none;
         font-size: 14pt;
     }

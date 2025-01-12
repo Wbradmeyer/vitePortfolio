@@ -26,23 +26,6 @@ const contactLinks = [
 </script>
 
 <template>
-    <!-- <div class="container">
-        <div class="card">
-            <h1 style="text-align: center;">Contact Me</h1>
-            <p>
-                <img src="../assets/email-1.png" alt="email icon">
-                <a href="mailto:wbradmeyer@gmail.com">Email Me</a>
-            </p>
-            <p>
-                <img src="../assets/linkedin2.png" alt="linkedin icon" style="border-radius: 12px; max-width: 73px; margin-left: 2px;">
-                <a href="https://www.linkedin.com/in/wbrad-meyer/">LinkedIn</a>
-            </p>
-            <p>
-                <img src="../assets/github1.svg" alt="github icon">
-                <a href="https://github.com/Wbradmeyer">GitHub</a>
-            </p>
-        </div>
-    </div> -->
     <section class="container">
         <address class="card">
             <h1 class="title">Contact Me</h1>
@@ -100,8 +83,8 @@ const contactLinks = [
     }
 
     .icon {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         margin-right: 15px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
