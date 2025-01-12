@@ -61,59 +61,93 @@ const projects = [
 
 <style scoped>
     .proj-container {
-        margin: 0px;
+        /* margin: 0px; */
         display: flex;
         justify-content: center;
         padding: 120px 0px 0px;
     }
 
     .projects {
-        margin: 0px;
+        /* margin: 0px; */
         padding: 20px;
         max-width: 850px;
     }
 
-    h2 {
-        margin: 40px 0px 20px;
+    h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 24pt;
+        color: white;
     }
+
+    /* h2 {
+        margin: 40px 0px 20px;
+    } */
 
     .proj-card {
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        gap: 20px;
         align-items: start;
+        margin-bottom: 40px;
     }
 
-    .project.pic {
-        margin-right: 20px;
+    .project-pic {
+        max-width: 300px;
+        /* margin-right: 20px; */
         border-radius: 8px;
-        max-width: 360px;
         box-shadow: 0px 0px 10px black;
-        transition: transform 1s;
+        transition: transform 0.3s ease;
     }
 
-    .project.pic:hover {
-        transform: scale(1.2);
+    .project-pic:hover {
+        transform: scale(1.1);
     }
 
-    a, p {
+    /* a, p {
         text-decoration: none;
         color: white;
         font-size: 16pt;
-    }
+    } */
 
     .info {
-        margin-left: 20px;
+        /* margin-left: 20px; */
         text-align: left;
-        max-width: 360px;
+        /* max-width: 360px; */
+    }
+
+    .project-title {
+        margin: 0 0 10px;
+        font-size: 20pt;
+        color: white;
+    }
+
+    .github-link {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: #f460ff;
+        text-decoration: none;
+        font-size: 14pt;
+    }
+
+    .github-link:hover {
+        text-decoration: underline;
+    }
+
+    .technologies,
+    .description {
+        margin: 5px 0;
+        font-size: 14pt;
+        color: white;
     }
 
     @media screen and (max-width: 480px) {
-        .proj-card {
+        /* .proj-card {
             display: block;
             text-align: left;
         }
 
-        .project.pic {
+        .project-pic {
             max-width: 480px;
         }
 
@@ -123,6 +157,30 @@ const projects = [
 
         a, p {
             font-size: 26pt;
+        } */
+
+        h1 {
+            font-size: 28pt;
+        }
+
+        .proj-card {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .project-pic {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .project-title {
+            font-size: 24pt;
+        }
+
+        .github-link,
+        .technologies,
+        .description {
+            font-size: 18pt;
         }
     }
 </style>
