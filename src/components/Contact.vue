@@ -56,7 +56,7 @@ const contactLinks = [
         border-radius: 8px;
         padding: 30px;
         box-shadow: 0px 0px 10px black;
-        max-width: 300px;
+        max-width: 250px;
         width: 100%;
     }
 
