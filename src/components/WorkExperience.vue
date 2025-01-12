@@ -29,13 +29,19 @@
 </template>
 
 <style scoped>
-    .container {
+    /* .container {
         padding: 120px 0px 0px;
+    } */
+
+    .container {
+        padding: 120px 0 0;
+        display: flex;
+        justify-content: center;
     }
 
     .work {
         margin: 0px 0px 40px;
-        text-align: left;
+        /* text-align: left; */
         color: white;
         padding: 20px;
         max-width: 850px;
@@ -46,7 +52,9 @@
     }
 
     li {
-        font-size: 18pt;
+        /* font-size: 18pt; */
+        font-size: 16pt;
+        line-height: 1.6;
     }
 
     @media screen and (max-width: 480px) {
