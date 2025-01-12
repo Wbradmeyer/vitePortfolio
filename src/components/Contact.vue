@@ -1,7 +1,7 @@
 <script setup>
-import emailImage from "..assets/email-1.png"
-import linkedinImage from "..assets/linkedin2.png"
-import githubImage from "..assets/github1.svg"
+import emailImage from "../assets/email-1.png"
+import linkedinImage from "../assets/linkedin2.png"
+import githubImage from "../assets/github1.svg"
 
 const contactLinks = [
     {
