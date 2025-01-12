@@ -11,7 +11,7 @@ const projects = [
         alt: "quiz show screenshot",
         link: "https://github.com/Wbradmeyer/quiz_show",
         technologies: "Python, Django, HTML, CSS",
-        description: "Website for developing a gameboard (initially teacher review sessions)",
+        description: "Website for developing a gameboard (class review sessions)",
     },
     {
         title: "Instrument Hub",
@@ -150,7 +150,7 @@ const projects = [
         .info {
             text-align: center;
         }
-        
+
         .project-title {
             font-size: 24pt;
         }
