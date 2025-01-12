@@ -170,7 +170,7 @@ img:hover {
     flex-direction: column;
     display: none;
     position: absolute;
-    top: 100%;
+    top: 97%;
     right: 0;
     background: rgba(0, 0, 0, 0.9);
     padding: 1rem;
