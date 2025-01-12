@@ -1,32 +1,27 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 
-const isMenuOpen = ref(false)
+// const isMenuOpen = ref(false)
 
-const shouldShowLinks = computed(() => isMenuOpen.value || window.innerWidth > 480)
+// const shouldShowLinks = computed(() => isMenuOpen.value || window.innerWidth > 480)
 
-const handleResize = () => {
-  if(window.innerWidth > 480) {
-    isMenuOpen.value = false
-  }
-}
-
-onMounted(() => {
-  window.addEventListener('resize', handleResize)
-})
-// const toggleLinks = () => {
-//   let x = document.getElementById("nav_links");
-//   if (x.style.display === "block") {
-//     x.style.display = "none";
-//   } else {
-//     x.style.display = "block";
+// const handleResize = () => {
+//   if(window.innerWidth > 480) {
+//     isMenuOpen.value = false
 //   }
 // }
 
-// const toggleLinks = () => {
-//   isMenuOpen.value = !isMenuOpen.value
-// }
-
+// onMounted(() => {
+//   window.addEventListener('resize', handleResize)
+// })
+const toggleLinks = () => {
+  let x = document.getElementById("nav_links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 </script>
 
 <template>
@@ -35,17 +30,17 @@ onMounted(() => {
       <h2>W. Brad Meyer | Developer</h2>
     </div>
     <div class="link_box">
-      <button 
+      <!-- <button 
         class="icon" 
         @click="isMenuOpen = !isMenuOpen" 
         aria-label="Toggle Navigation" 
         :aria-expanded="isMenuOpen"
       >
         <img src="../assets/hamburger3.png" alt="hamburger">  
-      </button>
-      <!-- <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
+      </button> -->
+      <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger3.png" alt="hamburger">
-      </a> -->
+      </a>
       <div id="nav_links" v-show="shouldShowLinks">
         <a href="#about-me" class="link">About</a>
         <a href="#work" class="link">Work</a>
@@ -83,11 +78,6 @@ onMounted(() => {
   background: rgba(0, 0, 0, 0.8);
   z-index: 1000;
 }
-
-/* h2 {
-  margin: 0px 5px;
-  font-size: 22pt;
-} */
 
 h2 {
   margin: 0;
@@ -134,11 +124,6 @@ h2 {
   cursor: pointer;
 }
 
-/* img {
-  max-width: 50px;
-  color: white;
-} */
-
 img {
   max-width: 30px;
   color: white;
@@ -150,18 +135,6 @@ img:hover {
 }
 
 @media screen and (max-width: 480px) {
-  /* h2 {
-    font-size: 26pt;
-  }
-
-  img {
-    max-width: 80px;
-  }
-
-  .link {
-    font-size: 20pt;
-  } */
-
   .icon {
     display: block;
   }
