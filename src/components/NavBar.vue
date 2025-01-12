@@ -150,6 +150,7 @@ img:hover {
     border-radius: 0 0 10px 10px;
   }
 
+  #nav_links[style*="display: block;"],
   #nav_links[style*="display: flex;"] {
     display: flex;
   }
