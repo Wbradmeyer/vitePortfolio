@@ -36,7 +36,7 @@
     .container {
         padding: 120px 0 0;
         display: flex;
-        justify-content: center;
+        justify-content :left;
     }
 
     .work {
