@@ -147,6 +147,10 @@ const projects = [
             margin-bottom: 20px;
         }
 
+        .info {
+            text-align: center;
+        }
+        
         .project-title {
             font-size: 24pt;
         }
