@@ -96,9 +96,9 @@ const workHistory = [
     }
 
     li {
-        /* font-size: 18pt; */
         font-size: 16pt;
         line-height: 1.6;
+        text-align: left;
     }
 
     @media screen and (max-width: 480px) {
