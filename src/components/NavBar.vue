@@ -5,12 +5,14 @@ const isMenuOpen = ref(false)
 
 const shouldShowLinks = computed(() => isMenuOpen.value || window.innerWidth > 480)
 
-const updateMenuState = () => {
-  isMenuOpen.value = false
+const handleResize = () => {
+  if(window.innerWidth > 480) {
+    isMenuOpen.value = false
+  }
 }
 
 onMounted(() => {
-  window.addEventListener('resize', updateMenuState)
+  window.addEventListener('resize', handleResize)
 })
 // const toggleLinks = () => {
 //   let x = document.getElementById("nav_links");
