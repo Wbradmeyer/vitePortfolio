@@ -105,7 +105,7 @@ h2 {
 }
 
 .link {
-  /* display: block; */
+  display: block;
   color: aliceblue;
   text-decoration: none;
   font-size: 14pt;
