@@ -68,7 +68,8 @@ const projects = [
     .proj-container {
         display: flex;
         justify-content: center;
-        padding: 120px 0px 0px;
+        padding: 100px 0px 0px;
+        max-width: 90%;
     }
 
     .projects {
