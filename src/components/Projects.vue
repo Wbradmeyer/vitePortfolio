@@ -61,14 +61,12 @@ const projects = [
 
 <style scoped>
     .proj-container {
-        /* margin: 0px; */
         display: flex;
         justify-content: center;
         padding: 120px 0px 0px;
     }
 
     .projects {
-        /* margin: 0px; */
         padding: 20px;
         max-width: 850px;
     }
@@ -80,13 +78,8 @@ const projects = [
         color: white;
     }
 
-    /* h2 {
-        margin: 40px 0px 20px;
-    } */
-
     .proj-card {
         display: flex;
-        /* justify-content: space-between; */
         gap: 20px;
         align-items: start;
         margin-bottom: 40px;
@@ -94,7 +87,6 @@ const projects = [
 
     .project-pic {
         max-width: 300px;
-        /* margin-right: 20px; */
         border-radius: 8px;
         box-shadow: 0px 0px 10px black;
         transition: transform 0.3s ease;
@@ -104,16 +96,8 @@ const projects = [
         transform: scale(1.1);
     }
 
-    /* a, p {
-        text-decoration: none;
-        color: white;
-        font-size: 16pt;
-    } */
-
     .info {
-        /* margin-left: 20px; */
         text-align: left;
-        /* max-width: 360px; */
     }
 
     .project-title {
@@ -142,23 +126,6 @@ const projects = [
     }
 
     @media screen and (max-width: 480px) {
-        /* .proj-card {
-            display: block;
-            text-align: left;
-        }
-
-        .project-pic {
-            max-width: 480px;
-        }
-
-        h2 {
-            font-size: 28pt;
-        }
-
-        a, p {
-            font-size: 26pt;
-        } */
-
         h1 {
             font-size: 28pt;
         }
