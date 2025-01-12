@@ -103,7 +103,9 @@ const contactLinks = [
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 120px 0;
+        padding: 100px 0;
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .card {
