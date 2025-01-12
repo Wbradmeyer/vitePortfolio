@@ -88,7 +88,7 @@ const projects = [
     .proj-card {
         display: flex;
         gap: 20px;
-        align-items: start;
+        align-items: center;
         margin-bottom: 40px;
     }
 
