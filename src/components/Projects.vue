@@ -70,6 +70,7 @@ const projects = [
         justify-content: center;
         padding: 100px 0px 0px;
         max-width: 90%;
+        margin: 0 auto;
     }
 
     .projects {
