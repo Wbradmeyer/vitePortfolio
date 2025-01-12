@@ -59,46 +59,6 @@ const contactLinks = [
 </template>
 
 <style scoped>
-    /* .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 40px 0px;
-        padding: 120px 0px 0px;
-    }
-
-    .card {
-        margin: 0px;
-        width: 300px;
-        text-align: left;
-        background-color: rgb(55, 55, 55, 0.5);
-        border-radius: 8px;
-        padding: 30px;
-        box-shadow: 0px 0px 10px black;
-    }
-
-    img {
-        max-width: 80px;
-        margin-right: 30px;
-    }
-
-    a {
-        font-size: 18pt;
-        color: aliceblue;
-        text-decoration: none;
-    }
-
-    p {
-        display: flex;
-        align-items: center;
-    }
-
-    @media screen and (max-width: 480px) {
-        a {
-            font-size: 26pt;
-        }
-    } */
-
     .container {
         display: flex;
         justify-content: center;
@@ -113,7 +73,7 @@ const contactLinks = [
         border-radius: 8px;
         padding: 30px;
         box-shadow: 0px 0px 10px black;
-        max-width: 400px;
+        max-width: 300px;
         width: 100%;
     }
 
@@ -140,8 +100,8 @@ const contactLinks = [
     }
 
     .icon {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         margin-right: 15px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
