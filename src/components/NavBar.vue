@@ -1,27 +1,27 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 
-// const isMenuOpen = ref(false)
+const isMenuOpen = ref(false)
 
-// const shouldShowLinks = computed(() => isMenuOpen.value || window.innerWidth > 480)
+const shouldShowLinks = computed(() => isMenuOpen.value || window.innerWidth > 480)
 
-// const handleResize = () => {
-//   if(window.innerWidth > 480) {
-//     isMenuOpen.value = false
-//   }
-// }
-
-// onMounted(() => {
-//   window.addEventListener('resize', handleResize)
-// })
-const toggleLinks = () => {
-  let x = document.getElementById("nav_links");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
+const handleResize = () => {
+  if(window.innerWidth > 480) {
+    isMenuOpen.value = false
   }
 }
+
+onMounted(() => {
+  window.addEventListener('resize', handleResize)
+})
+// const toggleLinks = () => {
+//   let x = document.getElementById("nav_links");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }
 </script>
 
 <template>
@@ -30,17 +30,17 @@ const toggleLinks = () => {
       <h2>W. Brad Meyer | Developer</h2>
     </div>
     <div class="link_box">
-      <!-- <button 
+      <button 
         class="icon" 
         @click="isMenuOpen = !isMenuOpen" 
         aria-label="Toggle Navigation" 
         :aria-expanded="isMenuOpen"
       >
         <img src="../assets/hamburger3.png" alt="hamburger">  
-      </button> -->
-      <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
+      </button>
+      <!-- <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger3.png" alt="hamburger">
-      </a>
+      </a> -->
       <div id="nav_links" v-show="shouldShowLinks">
         <a href="#about-me" class="link">About</a>
         <a href="#work" class="link">Work</a>
@@ -105,7 +105,7 @@ h2 {
 }
 
 .link {
-  display: block;
+  /* display: block; */
   color: aliceblue;
   text-decoration: none;
   font-size: 14pt;
