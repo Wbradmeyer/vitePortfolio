@@ -26,10 +26,6 @@
 </template>
 
 <style scoped>
-    /* .container {
-        padding: 120px 0px 0px;
-    } */
-
     .container {
         padding: 100px 0 0;
         max-width: 90%;
@@ -46,7 +42,6 @@
     }
 
     p {
-        /* font-size: 20pt; */
         font-size: 18pt;
         line-height: 1.6;
     }
@@ -54,20 +49,15 @@
     @media screen and (max-width: 480px) {
         p {
             font-size: 14pt;
-            /* font-size: 26pt; */
         }
 
-        /* .about {
-            margin: 0px 20px 40px;
-            padding: 30px;
-        } */
         .about {
-            margin: 0 5%; /* Use percentages for consistent spacing */
+            margin: 0 5%;
             padding: 1.5rem;
         }
 
         .container {
-            padding: 60px 0 0; /* Adjust top padding */
+            padding: 60px 0 0;
         }
     }
 </style>
