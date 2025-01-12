@@ -23,9 +23,9 @@ onMounted(() => {
 //   }
 // }
 
-const toggleLinks = () => {
-  isMenuOpen.value = !isMenuOpen.value
-}
+// const toggleLinks = () => {
+//   isMenuOpen.value = !isMenuOpen.value
+// }
 
 </script>
 
@@ -37,7 +37,7 @@ const toggleLinks = () => {
     <div class="link_box">
       <button 
         class="icon" 
-        @click="toggleLinks" 
+        @click="isMenuOpen = !isMenuOpen" 
         aria-label="Toggle Navigation" 
         :aria-expanded="isMenuOpen"
       >
