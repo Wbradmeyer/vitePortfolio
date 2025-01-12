@@ -1,8 +1,13 @@
 <script setup>
+import quizShow from "@/assets/quiz_show.png";
+import instrumentHub from "@/assets/instrument_hub.png";
+import jobMatch from "@/assets/job_match.png";
+import recipeApp from "@/assets/recipe_app.png";
+
 const projects = [
     {
         title: "Quiz Show",
-        image: "../assets/quiz_show.png",
+        image: quizShow,
         alt: "quiz show screenshot",
         link: "https://github.com/Wbradmeyer/quiz_show",
         technologies: "Python, Django, HTML, CSS",
@@ -10,7 +15,7 @@ const projects = [
     },
     {
         title: "Instrument Hub",
-        image: "../assets/instrument_hub.png",
+        image: instrumentHub,
         alt: "instrument hub screenshot",
         link: "https://github.com/Wbradmeyer/MeyerSoloProject",
         technologies: "Python, Flask, MySQL, Bootstrap, HTML",
@@ -18,7 +23,7 @@ const projects = [
     },
     {
         title: "Job Match",
-        image: "../assets/job_match.png",
+        image: jobMatch,
         alt: "job match screenshot",
         link: "https://github.com/Wbradmeyer/JobMatch",
         technologies: "JavaScript, MongoDB, Express, Node.JS, React, Tailwind",
@@ -26,7 +31,7 @@ const projects = [
     },
     {
         title: "Recipe App",
-        image: "../assets/recipe_app.png",
+        image: recipeApp,
         alt: "recipe app screenshot",
         link: "https://github.com/Wbradmeyer/django_react_recipes",
         technologies: "Python, JavaScript, Django, React, Django REST",
