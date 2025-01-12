@@ -1,30 +1,50 @@
-<script setup></script>
+<script setup>
+const workHistory = [
+    {
+        title: "Chorus Teacher",
+        organization: "Wesleyan School",
+        duration: "2017-Present",
+        responsibilities: [
+            "Collaborated with essential stakeholders across lower, middle, and high school divisions to present performances.",
+            "Planned and organized daily rehearsals as well as major annual events.",
+            "Directed annual musical theater productions, including:",
+        ],
+        subResponsibilities: [
+            "Taught/rehearsed all music, contracted and directed a professional orchestra.",
+            "2022 - Nominated for Shuler Hensley Award for Best Music Direction.",
+        ],
+    },
+    {
+        title: "Chorus Teacher",
+        organization: "McEachern High",
+        duration: "2010-2017",
+        responsibilities: [
+            "Developed and directed around 150 young singers annually, fostering a supportive atmosphere.",
+            "Competed in a thriving county among the top-rated programs in the state.",
+            "Led as Fine Arts Chair, promoting collaboration and organization between the band, chorus, orchestra, and visual art instructors.",
+        ],
+    },
+];
+</script>
 
 <template>
     <div class="container">
-        <div class="work">
-            <h1 style="text-align: center;">Work History</h1>
-            <h2 style="margin-bottom: 10px;">Chorus Teacher | Wesleyan School</h2>
-            <h2 style="margin-top: 0px;">2017-Present</h2>
-            <ul>
-                <li>Collaborated with essential stakeholders across lower, middle, and high school 
-                    divisions to present performances</li>
-                <li>Planned and organized daily rehearsals as well as major annual events</li>
-                <li>Directed annual musical theater productions</li>
-                    <ul>
-                        <li>Taught/rehearsed all music, contracted and directed a professional orchestra</li>
-                        <li>2022 - Nominated for Shuler Hensley Award for Best Music Direction</li>
-                    </ul>
-            </ul>
-            <h2 style="margin-bottom: 10px;">Chorus Teacher | McEachern High</h2>
-            <h2 style="margin-top: 0px;">2010-2017</h2>
-            <ul>
-                <li>Developed and directed around 150 young singers annually fostering a supportive atmosphere</li>
-                <li>Competed in a thriving county among the top-rated programs in the state</li>
-                <li>Led as Fine Arts Chair promoting collaboration and organization between the band, chorus, 
-                    orchestra, and visual art instructors</li>
-            </ul>
-        </div>
+        <section class="work">
+            <h1 class="title">Work History</h1>
+            <article v-for="(job, index) in workHistory" :key="index" class="job">
+                <h2 class="job-title">{{ job.title }} | {{ job.organization }}</h2>
+                <h3 class="job-duration">{{ job.duration }}</h3>
+                <ul>
+                    <li v-for="(responsibility, i) in job.responsibilities" :key="i">
+                        {{ responsibility }}
+                        <!-- Render sub-responsibilities if they exist -->
+                        <ul v-if="i === job.responsibilities.length - 1 && job.subResponsibilities">
+                            <li v-for="(sub, j) in job.subResponsibilities" :key="j">{{ sub }}</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
     </div>
 </template>
 
@@ -36,7 +56,7 @@
     .container {
         padding: 120px 0 0;
         display: flex;
-        justify-content :left;
+        justify-content: center;
     }
 
     .work {
@@ -45,6 +65,31 @@
         color: white;
         padding: 20px;
         max-width: 850px;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 28pt;
+        margin-bottom: 20px;
+    }
+
+    .job {
+        margin-bottom: 30px;
+    }
+
+    .job-title {
+        font-size: 22pt;
+        margin: 0 0 10px;
+    }
+
+    .job-duration {
+        font-size: 18pt;
+        margin: 0 0 15px;
+    }
+
+    ul {
+        padding-left: 20px;
+        margin: 0;
     }
 
     h2 {
@@ -58,16 +103,24 @@
     }
 
     @media screen and (max-width: 480px) {
-        h2 {
-            font-size: 28pt;
-        }
-        
-        li {
-            font-size: 26pt;
-        }
         .work {
             margin: 0px 20px 40px;
             padding: 30px;
+        }
+        .title {
+            font-size: 24pt;
+        }
+
+        .job-title {
+            font-size: 20pt;
+        }
+
+        .job-duration {
+            font-size: 18pt;
+        }
+
+        li {
+            font-size: 14pt;
         }
     }
 </style>
