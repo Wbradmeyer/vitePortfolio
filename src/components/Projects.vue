@@ -1,8 +1,8 @@
 <script setup>
-import quizShow from "@/assets/quiz_show.png";
-import instrumentHub from "@/assets/instrument_hub.png";
-import jobMatch from "@/assets/job_match.png";
-import recipeApp from "@/assets/recipe_app.png";
+import quizShow from "../assets/quiz_show.png";
+import instrumentHub from "../assets/instrument_hub.png";
+import jobMatch from "../assets/job_match.png";
+import recipeApp from "../assets/recipe_app.png";
 
 const projects = [
     {
