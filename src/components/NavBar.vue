@@ -71,7 +71,7 @@ const toggleLinks = () => {
 
 .nav {
   padding: 1.5rem;
-  width: 96%;
+  width: 97%;
   display: flex;
   justify-content: space-between;
   align-items: center;
