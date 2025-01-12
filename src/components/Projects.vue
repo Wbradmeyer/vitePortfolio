@@ -1,50 +1,61 @@
-<script setup></script>
+<script setup>
+const projects = [
+    {
+        title: "Quiz Show",
+        image: "../assets/quiz_show.png",
+        alt: "quiz show screenshot",
+        link: "https://github.com/Wbradmeyer/quiz_show",
+        technologies: "Python, Django, HTML, CSS",
+        description: "Website for developing a gameboard (initially teacher review sessions)",
+    },
+    {
+        title: "Instrument Hub",
+        image: "../assets/instrument_hub.png",
+        alt: "instrument hub screenshot",
+        link: "https://github.com/Wbradmeyer/MeyerSoloProject",
+        technologies: "Python, Flask, MySQL, Bootstrap, HTML",
+        description: "Website for buying and selling used instruments",
+    },
+    {
+        title: "Job Match",
+        image: "../assets/job_match.png",
+        alt: "job match screenshot",
+        link: "https://github.com/Wbradmeyer/JobMatch",
+        technologies: "JavaScript, MongoDB, Express, Node.JS, React, Tailwind",
+        description: "Website for job seekers/companies to filter best jobs/candidates",
+    },
+    {
+        title: "Recipe App",
+        image: "../assets/recipe_app.png",
+        alt: "recipe app screenshot",
+        link: "https://github.com/Wbradmeyer/django_react_recipes",
+        technologies: "Python, JavaScript, Django, React, Django REST",
+        description: "Site for storing, searching, and displaying recipes",
+    },
+];
+</script>
 
 <template>
     <div class="proj-container">
-        <div class="projects">
-            <h1>Projects</h1>
-            
-            <h2>Quiz Show</h2>
-            <div class="proj-card">
-                <img src="../assets/quiz_show.png" alt="quiz show screenshot" class="project pic">
-                <div class="info">
-                    <a href="https://github.com/Wbradmeyer/quiz_show" target="_blank">GitHub Link</a>
-                    <p>Python, Django, HTML, CSS</p>
-                    <p>Website for developing a gameboard (initially teacher review sessions)</p>
-                </div>
+        <section class="projects">
+            <h1 class="title">Projects</h1>
+            <div v-for="(project, index) in projects" :key="index">
+                <article class="proj-card">
+                    <img
+                        :src="project.image"
+                        :alt="project.alt"
+                        class="project-pic"
+                    />
+                    <div class="info">
+                        <h2 class="project-title">{{ project.title }}</h2>
+                        <a :href="project.link" target="_blank" class="github-link">GitHub Link</a>
+                        <p class="technologies">{{ project.technologies }}</p>
+                        <p class="description">{{ project.description }}</p>
+                    </div>
+                </article>
+                <hr v-if="index !== projects.length - 1" />
             </div>
-            <hr>
-            <h2>Instrument Hub</h2>
-            <div class="proj-card">
-                <img src="../assets/instrument_hub.png" alt="instrument hub screenshot" class="project pic">
-                <div class="info">
-                    <a href="https://github.com/Wbradmeyer/MeyerSoloProject" target="_blank">GitHub Link</a>
-                    <p>Python, Flask, MySQL, Bootstrap, HTML</p>
-                    <p>Website for buying and selling used instruments</p>
-                </div>
-            </div>
-            <hr>
-            <h2>Job Match</h2>
-            <div class="proj-card">
-                <img src="../assets/job_match.png" alt="job match screenshot" class="project pic">
-                <div class="info">
-                    <a href="https://github.com/Wbradmeyer/JobMatch" target="_blank">GitHub Link</a>
-                    <p>JavaScript, MongoDB, Express, Node.JS, React, Tailwind</p>
-                    <p>Website for job seekers/companies to filter best jobs/candidates</p>
-                </div>
-            </div>
-            <hr>
-            <h2>Recipe App</h2>
-            <div class="proj-card">
-                <img src="../assets/recipe_app.png" alt="recipe app screenshot" class="project pic">
-                <div class="info">
-                    <a href="https://github.com/Wbradmeyer/django_react_recipes" target="_blank">GitHub Link</a>
-                    <p>Python, JavaScript, Django, React, Django REST</p>
-                    <p>Site for storing, searching, and displaying recipes</p>
-                </div>
-            </div>
-        </div>
+        </section>
     </div>
 </template>
 
