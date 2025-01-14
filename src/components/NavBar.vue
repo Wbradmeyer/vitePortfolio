@@ -15,6 +15,8 @@ const handleResize = () => {
 }
 
 onMounted(() => {
+  console.log("Mounted: Adding resize event listener");
+  console.log("Initial isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth);
   window.addEventListener('resize', handleResize)
 })
 // const toggleLinks = () => {
