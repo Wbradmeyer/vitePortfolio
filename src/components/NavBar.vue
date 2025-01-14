@@ -3,7 +3,10 @@ import { ref, computed, onMounted } from 'vue'
 
 const isMenuOpen = ref(false)
 
-const shouldShowLinks = computed(() => isMenuOpen.value || window.innerWidth > 480)
+const shouldShowLinks = computed(() => {
+  console.log("isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth);
+  return isMenuOpen.value || window.innerWidth > 480
+})
 
 const handleResize = () => {
   if(window.innerWidth > 480) {
