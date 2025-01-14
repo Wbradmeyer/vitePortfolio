@@ -9,6 +9,7 @@ const shouldShowLinks = computed(() => {
 })
 
 const handleResize = () => {
+  console.log("Window resized: innerWidth =", window.innerWidth);
   if(window.innerWidth > 480) {
     isMenuOpen.value = false
   }
