@@ -88,10 +88,6 @@ h2 {
   text-align: right;
 }
 
-/* #nav_links {
-  display: none;
-} */
-
 #nav_links {
   display: flex;
   gap: 1.5rem;
@@ -99,7 +95,6 @@ h2 {
 }
 
 .link {
-  /* display: block; */
   color: aliceblue;
   text-decoration: none;
   font-size: 14pt;
@@ -111,7 +106,6 @@ h2 {
 }
 
 .icon {
-  /* display: block; */
   display: none;
   background: none;
   border: none;
@@ -129,6 +123,10 @@ img:hover {
 }
 
 @media screen and (max-width: 480px) {
+  .nav {
+    width: 95%;
+  }
+
   .icon {
     display: block;
   }
