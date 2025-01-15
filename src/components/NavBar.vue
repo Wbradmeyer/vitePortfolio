@@ -160,10 +160,11 @@ img:hover {
     border-radius: 0 0 10px 10px;
   }
 
-  /* #nav_links[style*="display: block;"],
-  #nav_links[style*="display: flex;"] {
+  #nav_links[style*="display: block;"] {
+  /* #nav_links[style*="display: flex;"] { */
+    display: block;
     display: flex;
-  } */
+  }
 
   .link {
     font-size: 16pt;
