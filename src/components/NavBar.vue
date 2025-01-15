@@ -5,13 +5,13 @@ const isMenuOpen = ref(false)
 
 const shouldShowLinks = computed(() => {
   console.log("isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth);
-  console.log("window.innerWidth:", window.innerWidth, "| document.body.offsetWidth:", document.body.offsetWidth);
+  console.log("window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
   return isMenuOpen.value || window.innerWidth > 480
 })
 
 const handleResize = () => {
   console.log("Window resized: innerWidth =", window.innerWidth);
-  console.log("window.innerWidth:", window.innerWidth, "| document.body.offsetWidth:", document.body.offsetWidth);
+  console.log("window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
   if(window.innerWidth > 480) {
     isMenuOpen.value = false
   }
@@ -19,8 +19,7 @@ const handleResize = () => {
 
 onMounted(() => {
   console.log("Mounted: Adding resize event listener");
-  console.log("Initial isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth);
-  console.log("window.innerWidth:", window.innerWidth, "| document.body.offsetWidth:", document.body.offsetWidth);
+  console.log("Initial isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
   window.addEventListener("resize", handleResize)
 })
 
