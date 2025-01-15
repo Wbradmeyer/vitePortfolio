@@ -1,39 +1,39 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
-const isMenuOpen = ref(false)
+// const isMenuOpen = ref(false)
 
-const shouldShowLinks = computed(() => {
-  console.log("isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth);
-  console.log("window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
-  return isMenuOpen.value || window.innerWidth > 480
-})
+// const shouldShowLinks = computed(() => {
+//   console.log("isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth);
+//   console.log("window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
+//   return isMenuOpen.value || window.innerWidth > 480
+// })
 
-const handleResize = () => {
-  console.log("Window resized: innerWidth =", window.innerWidth);
-  console.log("window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
-  if(window.innerWidth > 480) {
-    isMenuOpen.value = false
-  }
-}
-
-onMounted(() => {
-  console.log("Mounted: Adding resize event listener");
-  console.log("Initial isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
-  window.addEventListener("resize", handleResize)
-})
-
-onUnmounted(() => {
-  window.removeEventListener("resize", handleResize);
-});
-// const toggleLinks = () => {
-//   let x = document.getElementById("nav_links");
-//   if (x.style.display === "block") {
-//     x.style.display = "none";
-//   } else {
-//     x.style.display = "block";
+// const handleResize = () => {
+//   console.log("Window resized: innerWidth =", window.innerWidth);
+//   console.log("window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
+//   if(window.innerWidth > 480) {
+//     isMenuOpen.value = false
 //   }
 // }
+
+// onMounted(() => {
+//   console.log("Mounted: Adding resize event listener");
+//   console.log("Initial isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth, "| window.innerHeight:", window.innerHeight);
+//   window.addEventListener("resize", handleResize)
+// })
+
+// onUnmounted(() => {
+//   window.removeEventListener("resize", handleResize);
+// });
+const toggleLinks = () => {
+  let x = document.getElementById("nav_links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 </script>
 
 <template>
@@ -42,18 +42,19 @@ onUnmounted(() => {
       <h2>W. Brad Meyer | Developer</h2>
     </div>
     <div class="link_box">
-      <button 
+      <!-- <button 
         class="icon" 
         @click="isMenuOpen = !isMenuOpen" 
         aria-label="Toggle Navigation" 
         :aria-expanded="isMenuOpen"
       >
         <img src="../assets/hamburger3.png" alt="hamburger">  
-      </button>
-      <!-- <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
+      </button> -->
+      <a href="javascript:void(0);" class="icon" @click="toggleLinks()">
         <img src="../assets/hamburger3.png" alt="hamburger">
-      </a> -->
-      <div id="nav_links" v-show="shouldShowLinks">
+      </a>
+      <!-- <div id="nav_links" v-show="shouldShowLinks"> -->
+      <div id="nav_links">
         <a href="#about-me" class="link">About</a>
         <a href="#work" class="link">Work</a>
         <a href="#projects" class="link">Projects</a>
@@ -64,20 +65,6 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
-/* .nav {
-  padding: 40px 40px 40px;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: top;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-image: linear-gradient(black, black, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-  opacity: 0.8;
-} */
-
 .nav {
   padding: 1.5rem;
   width: 97%;
@@ -96,11 +83,6 @@ h2 {
   font-size: 18pt;
   color: white;
 }
-
-/* .link_box {
-  padding-right: 80px;
-  text-align: left;
-} */
 
 .link_box {
   text-align: right;
@@ -162,10 +144,10 @@ img:hover {
     border-radius: 0 0 10px 10px;
   }
 
-  #nav_links[style*="display: block;"], 
+  /* #nav_links[style*="display: block;"], 
   #nav_links[style*="display: flex;"] {
     display: flex;
-  }
+  } */
 
   .link {
     font-size: 16pt;
