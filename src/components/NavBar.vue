@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const isMenuOpen = ref(false)
 
@@ -18,8 +18,12 @@ const handleResize = () => {
 onMounted(() => {
   console.log("Mounted: Adding resize event listener");
   console.log("Initial isMenuOpen:", isMenuOpen.value, "| window.innerWidth:", window.innerWidth);
-  window.addEventListener('resize', handleResize)
+  window.addEventListener("resize", handleResize)
 })
+
+onUnmounted(() => {
+  window.removeEventListener("resize", handleResize);
+});
 // const toggleLinks = () => {
 //   let x = document.getElementById("nav_links");
 //   if (x.style.display === "block") {
@@ -147,7 +151,7 @@ img:hover {
 
   #nav_links {
     flex-direction: column;
-    display: none;
+    display: block;
     position: absolute;
     top: 97%;
     right: 0;
