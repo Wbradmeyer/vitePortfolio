@@ -124,7 +124,7 @@ img:hover {
 
 @media screen and (max-width: 480px) {
   .nav {
-    width: 92%;
+    width: 94%;
   }
 
   .icon {
