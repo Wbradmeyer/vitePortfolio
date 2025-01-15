@@ -28,10 +28,10 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 // });
 const toggleLinks = () => {
   let x = document.getElementById("nav_links");
-  if (x.style.display === "block") {
+  if (x.style.display === "flex") {
     x.style.display = "none";
   } else {
-    x.style.display = "block";
+    x.style.display = "flex";
   }
 }
 </script>
