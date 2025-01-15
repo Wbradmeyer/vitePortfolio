@@ -151,7 +151,7 @@ img:hover {
 
   #nav_links {
     flex-direction: column;
-    display: block;
+    display: none;
     position: absolute;
     top: 97%;
     right: 0;
