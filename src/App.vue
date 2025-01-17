@@ -18,18 +18,5 @@ import Contact from './components/Contact.vue';
 </template>
 
 <style scoped>
-@media screen and (max-width: 480px){
-  #about-me {
-    z-index: 2;
-  }
-  #work {
-    z-index: 2;
-  }
-  #projects {
-    z-index: 2;
-  }
-  #contacts {
-    z-index: 2;
-  }
-}
+
 </style>
