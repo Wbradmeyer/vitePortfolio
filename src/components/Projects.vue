@@ -119,10 +119,11 @@ const projects = [
         color: white;
         text-decoration: none;
         font-size: 14pt;
+        transition: color 0.3s ease;
     }
 
     .github-link:hover {
-        text-decoration: underline;
+        color: #f460ff;
     }
 
     .technologies,
