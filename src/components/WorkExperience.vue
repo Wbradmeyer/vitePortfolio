@@ -6,8 +6,8 @@ const workHistory = [
         duration: "2017-Present",
         responsibilities: [
             "Collaborated with essential stakeholders across lower, middle, and high school divisions to present performances.",
-            "Planned and organized daily rehearsals as well as major annual events.",
-            "Directed annual musical theater productions, including:",
+            "Planned and organized daily rehearsals, major annual events, major events and team meetings.",
+            "Directed annual musical theater productions.",
         ],
         subResponsibilities: [
             "Taught/rehearsed all music, contracted and directed a professional orchestra.",
@@ -20,7 +20,7 @@ const workHistory = [
         duration: "2010-2017",
         responsibilities: [
             "Developed and directed around 150 young singers annually, fostering a supportive atmosphere.",
-            "Competed in a thriving county among the top-rated programs in the state.",
+            "Competed in a thriving county among the top-rated programs, steadily improved performance scores.",
             "Led as Fine Arts Chair, promoting collaboration and organization between the band, chorus, orchestra, and visual art instructors.",
         ],
     },
