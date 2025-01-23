@@ -11,7 +11,7 @@ const projects = [
         alt: "quiz show screenshot",
         link: "https://github.com/Wbradmeyer/quiz_show",
         technologies: "Python, Django, HTML, CSS",
-        description: "Website for developing a gameboard (class review sessions)",
+        description: "Website for developing a quiz show style gameboard",
     },
     {
         title: "Instrument Hub",
