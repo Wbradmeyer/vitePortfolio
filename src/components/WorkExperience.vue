@@ -5,12 +5,11 @@ const workHistory = [
         organization: "Wesleyan School",
         duration: "2017-Present",
         responsibilities: [
-            "Collaborated with essential stakeholders across lower, middle, and high school divisions to present performances.",
-            "Planned and organized daily rehearsals, major annual events, major events and team meetings.",
-            "Directed annual musical theater productions.",
+            "Led cross-functional collaboration across school divisions for large-scale events.",
+            "Directed musical theater productions, overseeing music, orchestration, and live performances.",
+            "Managed team meetings, scheduling, and performance logistics for major annual events.",
         ],
         subResponsibilities: [
-            "Taught/rehearsed all music, contracted and directed a professional orchestra.",
             "2022 - Nominated for Shuler Hensley Award for Best Music Direction.",
         ],
     },
@@ -19,9 +18,9 @@ const workHistory = [
         organization: "McEachern High",
         duration: "2010-2017",
         responsibilities: [
-            "Developed and directed around 150 young singers annually, fostering a supportive atmosphere.",
-            "Competed in a thriving county among the top-rated programs, steadily improved performance scores.",
-            "Led as Fine Arts Chair, promoting collaboration and organization between the band, chorus, orchestra, and visual art instructors.",
+            "Developed and coached 150+ students annually, fostering a collaborative learning environment.",
+            "Consistently improved ensemble performance scores through structured skill development & coaching.",
+            "Served as Fine Arts Chair, coordinating efforts between multiple artistic departments.",
         ],
     },
 ];
