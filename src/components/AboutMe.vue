@@ -1,11 +1,32 @@
 <script setup>
+import { ref, onMounted } from 'vue'
 
+const aboutRef = ref(null)
+const isVisible = ref(false)
 
+onMounted(() => {
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        isVisible.value = true
+        observer.disconnect()
+      }
+    },
+    { threshold: 0.2 }
+  )
+  if (aboutRef.value) {
+    observer.observe(aboutRef.value)
+  }
+})
 </script>
 
 <template>
     <div class="container">
-        <div class="about">
+        <div
+          class="about"
+          ref="aboutRef"
+          :class="{ 'fade-in': isVisible }"
+        >
             <h1 style="text-align: center;">About Me</h1>
             <p>
                 I am a full-stack developer and a music educator. I enjoy problem-solving and breaking down 
@@ -34,11 +55,18 @@
 
     .about {
         margin: 0px 0px 40px;
-        /* text-align: left; */
         text-align: justify;
         color: white;
         padding: 20px;
         max-width: 850px;
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 1.2s ease, transform 1.2s cubic-bezier(.23,1.01,.32,1);
+    }
+
+    .about.fade-in {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     p {
