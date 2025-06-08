@@ -11,7 +11,7 @@
                 I am a full-stack developer and a music educator. I enjoy problem-solving and breaking down 
                 information into manageable parts to benefit others and myself. I believe life-long learning 
                 is essential to working a job and for living a rewarding life in general. Most recently I have 
-                been learning the Django web framework as well as bass guitar. As an 18-year educator, I have a 
+                been taking the GitHub Foundations course through Microsoft Learn. As an 18-year educator, I have a 
                 wealth of experience in planning, collaborating with others, and mentoring.
             </p>
             <p>
