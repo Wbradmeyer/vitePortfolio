@@ -1,39 +1,39 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const paragraph1 = `I am a full-stack developer and a music educator. I enjoy 
-problem-solving and breaking down information into manageable parts to benefit 
-others and myself. I believe life-long learning is essential to working a job 
-and for living a rewarding life in general. Most recently I have been taking 
-the GitHub Foundations course through Microsoft Learn. As an 18-year educator, 
-I have a wealth of experience in planning, collaborating with others, and mentoring.`
-const paragraph2 = `I am proficient in Python (Flask and Django), Java (Spring Boot), and JavaScript (React) and have 
-two music degrees. I really enjoy both disciplines as they blend together problem-solving, creativity, 
-logic, and syntax. Whether working with front-end or back-end, or writing or rehearsing a song, the 
-build is fun. Both coding and music have allowed me to meet and work with some unique, amazing, 
-inspiring people.`
+const paragraph1 = `I am a full-stack developer and a music educator. I enjoy \
+    problem-solving and breaking down information into manageable parts to benefit \
+    others and myself. I believe life-long learning is essential to working a job \
+    and for living a rewarding life in general. Most recently I have been taking \
+    the GitHub Foundations course through Microsoft Learn. As an 18-year educator, \
+    I have a wealth of experience in planning, collaborating with others, and mentoring.`
+const paragraph2 = `I am proficient in Python (Flask and Django), Java (Spring Boot), and \
+    JavaScript (React) and have two music degrees. I really enjoy both disciplines as they \
+    blend together problem-solving, creativity, logic, and syntax. Whether working with \
+    front-end or back-end, or writing or rehearsing a song, the build is fun. Both coding \ 
+    and music have allowed me to meet and work with some unique, amazing, inspiring people.`
 
 const displayed1 = ref('')
 const displayed2 = ref('')
 
 function typeWriter(text, displayed, delay = 15, cb) {
-  let i = 0
-  function type() {
-    if (i < text.length) {
-      displayed.value += text[i]
-      i++
-      setTimeout(type, delay)
-    } else if (cb) {
-      cb()
+    let i = 0
+    function type() {
+        if (i < text.length) {
+            displayed.value += text[i]
+            i++
+            setTimeout(type, delay)
+        } else if (cb) {
+            cb()
+        }
     }
-  }
-  type()
+    type()
 }
 
 onMounted(() => {
-  typeWriter(paragraph1, displayed1, 15, () => {
-    setTimeout(() => typeWriter(paragraph2, displayed2, 15), 400)
-  })
+    typeWriter(paragraph1, displayed1, 15, () => {
+        setTimeout(() => typeWriter(paragraph2, displayed2, 15), 400)
+    })
 })
 </script>
 
